@@ -1,0 +1,390 @@
+@charset "UTF-8";
+#detail .btn_buy {
+  float: left;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+#detail .list_box {
+  height: 590px;
+}
+#detail .list_box .path {
+  width: 1200px;
+  float: left;
+  color: #959595;
+  line-height: 40px;
+}
+#detail .list_box .good_box {
+  width: 596px;
+  float: left;
+}
+#detail .list_box .good_box .on {
+  border: 1px solid #8ab800 !important;
+}
+#detail .list_box .good_box .smpic {
+  width: 84px;
+  float: left;
+}
+#detail .list_box .good_box .smpic p:first-child {
+  width: 82px;
+  height: 15px;
+  float: left;
+  text-align: center;
+  border: 1px solid #c9c9c9;
+  background: url(//image.benlailife.com/webStatic/images/n_detail/detail_ico2_aee48cd9.png) 33px 5px no-repeat;
+}
+#detail .list_box .good_box .smpic .smallpic {
+  width: 84px;
+  float: left;
+  margin-top: 8px;
+  height: 460px;
+  overflow: hidden;
+}
+#detail .list_box .good_box .smpic .smallpic a {
+  border: 1px solid #c9c9c9;
+  display: block;
+  margin-bottom: 8px;
+}
+#detail .list_box .good_box .smpic .smallpic a img {
+  width: 82px;
+  height: 82px;
+}
+#detail .list_box .good_box .smpic p:last-child {
+  width: 82px;
+  height: 15px;
+  float: left;
+  text-align: center;
+  border: 1px solid #c9c9c9;
+  background: url(//image.benlailife.com/webStatic/images/n_detail/detail_ico2_aee48cd9.png) 33px -21px no-repeat;
+}
+#detail .list_box .good_box .bigpic {
+  float: right;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #c9c9c9;
+  overflow: hidden;
+  margin-top: 0px;
+}
+#detail .list_box .good_box .jqzoom {
+  float: left;
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+}
+#detail .list_box .good_box .good_num div:first-child {
+  float: left;
+  width: 270px;
+  line-height: 45px;
+  color: #535353;
+  height: 45px;
+}
+#detail .list_box .good_box .good_num div:first-child span {
+  line-height: 45px;
+  color: #535353;
+}
+#detail .list_box .good_box .good_num .share {
+  float: right;
+  width: 250px;
+  height: 45px;
+}
+#detail .list_box .good_box .good_num .share span:first-child {
+  width: 87px;
+  display: block;
+  float: left;
+  height: 45px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  line-height: 45px;
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_icon01_c2ce2a81.png) 69px 19px no-repeat;
+}
+#detail .list_box .good_box .good_num .share span:first-child s {
+  background: url(../images/detail/detail_icon.gif) 0 -100px no-repeat;
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin: 14px 5px 0 6px;
+  display: block;
+  line-height: 45px;
+}
+#detail .list_box .good_box .good_num .share span:nth-child(2) {
+  background: url(../images/detail/detail_icon.gif) 0 -169px no-repeat;
+  line-height: 45px;
+  color: #535353;
+  padding-left: 20px;
+  width: 44px;
+}
+#detail .list_box .goodinfo {
+  float: right;
+  width: 570px;
+}
+#detail .list_box .goodinfo .name {
+  float: left;
+  width: 570px;
+  height: auto !important;
+  height: 68px;
+  min-height: 68px;
+  border-bottom: 1px solid #e0e0e0;
+}
+#detail .list_box .goodinfo .intro_sales {
+  float: left;
+  width: 570px;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 18px 0;
+}
+#detail .list_box .goodinfo .intro_sales .intro_price {
+  float: left;
+  width: 570px;
+  margin: 0 0 18px;
+}
+#detail .list_box .goodinfo .intro_sales .intro_price .drop {
+  float: left;
+  color: #fff;
+  font-size: 14px;
+  background-color: #ff6900;
+  line-height: 26px;
+  padding: 0 8px;
+  margin-right: 10px;
+}
+#detail .list_box .goodinfo .intro_sales .intro_price .price {
+  font-size: 26px;
+  color: #ff6900;
+}
+#detail .list_box .goodinfo .intro_sales .intro_price .note {
+  float: left;
+  margin: 3px 0 0 20px;
+}
+#detail .list_box .goodinfo .intro_sales .intro_price .note a {
+  background: url(//image.benlailife.com/webStatic/images/n_detail/detail_ico_e7eb6dd1.gif) 10px -63px no-repeat;
+  border: 1px solid #e7e7e7;
+  line-height: 18px;
+  color: #4c4c4c;
+  padding: 0 10px 0 25px;
+  display: block;
+}
+#detail .list_box .goodinfo .intro_sales .intro_price .note_on {
+  background: url(//image.benlailife.com/webStatic/images/n_detail/detail_ico_e7eb6dd1.gif) 10px -63px no-repeat;
+}
+#detail .list_box .goodinfo .intro_sales .intro_app {
+  float: left;
+  width: 570px;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 18px 0;
+}
+#detail .list_box .goodinfo .intro_sales .intro_app a {
+  float: left;
+  width: 97px;
+  height: 26px;
+  background: url(//image.benlailife.com/webStatic/images/n_detail/app_ico_23ab52d9.png) 0 0 no-repeat #ff6900;
+  font-size: 14px;
+  color: #fff;
+  padding-left: 28px;
+  line-height: 26px;
+  text-decoration: none;
+}
+#detail .list_box .goodinfo .intro_sales .good_buy {
+  float: left;
+  width: 570px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+#detail .list_box .goodinfo .intro_sales .good_buy ul {
+  float: left;
+}
+#detail .list_box .goodinfo .intro_sales .good_buy ul li {
+  float: left;
+  height: 52px;
+}
+#detail .list_box .goodinfo .intro_sales .good_buy ul li:first-child {
+  width: 75px;
+  margin-right: 15px;
+}
+#detail .list_box .goodinfo .intro_sales .good_buy ul li:first-child .num {
+  border: 1px solid #cdcdcd;
+  width: 54px;
+  height: 50px;
+  font-size: 24px;
+  color: #626262;
+  text-align: center;
+  float: left;
+}
+#detail .list_box .goodinfo .intro_sales .good_buy ul li:first-child a {
+  float: left;
+  width: 19px;
+  height: 25px;
+  display: block;
+}
+#detail .list_box .goodinfo .intro_sales .good_buy ul li:first-child .up {
+  background: url(//image.benlailife.com/webStatic/images/n_detail/detail_ico2_aee48cd9.png) 0 -52px no-repeat;
+}
+#detail .list_box .goodinfo .intro_sales .good_buy ul li:first-child .down {
+  background: url(//image.benlailife.com/webStatic/images/n_detail/detail_ico2_aee48cd9.png) -20px -52px no-repeat;
+}
+#detail .list_box .goodinfo .intro_sales .good_buy ul li:nth-child(2) .btn_buy a {
+  width: 182px;
+  height: 52px;
+  display: block;
+  background: url(//image.benlailife.com/webStatic/images/n_detail/detailsp_btn_c8171162.gif) no-repeat;
+}
+#detail .list_box .goodinfo .intro_sales .good_buy ul li:nth-child(2) .com_info {
+  color: #4c4c4c;
+  line-height: 52px;
+  float: left;
+}
+#detail .comment_box .read_left {
+  float: left !important;
+  display: inline;
+  width: 210px;
+  background-color: yellow;
+  height: 40px;
+}
+#detail .comment_box .box_right {
+  float: left;
+  width: 980px;
+  padding-bottom: 15px;
+}
+#detail .comment_box .box_right dt {
+  background-color: #fafafa;
+  border-bottom: 1px solid #efefe7;
+  border-left: 1px solid #efefe7;
+  border-right: 1px solid #efefe7;
+  border-top: 2px solid #8ab700;
+  height: 36px;
+}
+#detail .comment_box .box_right dt em {
+  float: left;
+  position: relative;
+  z-index: 70;
+  height: 34px;
+  width: 122px;
+}
+#detail .comment_box .box_right dt em a {
+  line-height: 44px;
+  padding: 0 4px 0 0;
+  display: block;
+  position: absolute;
+  top: -6px;
+  left: -1px;
+  width: 118px;
+  text-align: center;
+  height: 44px;
+  overflow: hidden;
+  text-overflow: clip;
+  background: url(//image.benlailife.com/webStatic/images/n_detail/detail_ico2_aee48cd9.png) right -194px no-repeat;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  background: url(//image.benlailife.com/webStatic/images/n_detail/detail_ico2_aee48cd9.png) right -194px no-repeat;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+#detail .comment_box .box_right .match {
+  overflow: hidden;
+  height: 230px;
+  width: 640px;
+  margin: 20px 0 20px 20px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  float: left;
+}
+#detail .comment_box .box_right .match ul:first-child {
+  float: left;
+  width: 120px;
+  height: 230px;
+}
+#detail .comment_box .box_right .match .match_list {
+  float: left;
+  width: 510px;
+  height: 230px;
+}
+#detail .comment_box .box_right ol {
+  float: right;
+  width: 280px;
+  border-left: 1px solid #e7e7e7;
+  margin: 20px 0;
+  height: auto !important;
+  height: 200px;
+  min-height: 200px;
+  padding-top: 30px;
+}
+#detail .comment_box .box_right ol li {
+  margin-left: 50px;
+  height: 120px;
+}
+#detail .comment_box .box_right .good_detail_tab {
+  float: left;
+  width: 980px;
+  position: relative;
+  z-index: 7;
+  background-color: #fafafa;
+  border-bottom: 1px solid #efefe7;
+  border-left: 1px solid #efefe7;
+  border-right: 1px solid #efefe7;
+  border-top: 2px solid #8ab700;
+  height: 41px;
+}
+#detail .comment_box .box_right .good_detail_tab em {
+  float: left;
+  position: relative;
+  z-index: 70;
+  height: 34px;
+  width: 112px;
+}
+#detail .comment_box .box_right .good_detail_tab a {
+  color: #79a000;
+  line-height: 34px;
+  padding: 10px 4px 0 0;
+  display: block;
+  position: absolute;
+  top: -6px;
+  left: -1px;
+  width: 108px;
+  text-align: center;
+  height: 34px;
+  overflow: hidden;
+  text-overflow: clip;
+  font-weight: 400;
+  font-family: "瀹嬩綋";
+  font-size: 12px;
+}
+#detail .comment_box .box_right .good_detail_tab .on {
+  background: url(//image.benlailife.com/webStatic/images/n_detail/detail_ico2_aee48cd9.png) right -194px no-repeat;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  padding-top: 5px;
+  height: 39px;
+}
+#detail .comment_box .box_right .goods_all {
+  float: left;
+  width: 980px;
+  margin: 20px 0;
+}
+#detail .comment_box .box_right .goods_all dt {
+  border: 0 none;
+}
+#detail .comment_box .box_right .goods_all dd {
+  height: 480px;
+}
+#detail .comment_box .box_right .review {
+  float: left;
+  width: 980px;
+}
+#detail .comment_box .box_right .review dt {
+  border: 0 none;
+}
+#detail .comment_box .box_right .goods_comment {
+  float: left;
+  width: 980px;
+  height: 930px;
+}
+
+/*# sourceMappingURL=detail.css.map */

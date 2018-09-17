@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>注册页</title>
+    
+    <link rel="stylesheet" type="text/css" href="../css/register.css" />
+    <link rel="stylesheet" type="text/css" href="../css/swiper.css" /> 
+    <link rel="stylesheet" type="text/css" href="../css/drag.css" />
+
+    <script src="../js/jquery-3.2.1.js" ></script>
+    <script src="../js/swiper.min.js" ></script>
+
+    <!-- <script src="../js/register.js"></script> -->
+    <script src="../js/reg.js"></script>
+    <script src="../js/drag.js"></script>
+    <script>
+
+        jQuery(function($){
+            $('#pageHeader').load('header.html');
+            $('#pageFooter').load('footer.html');
+
+            $('#drag').drag();
+        });
+
+
+    </script>
+
+    <style type="text/css">
+        .list{
+            display:none;
+        }
+        .head_menu_all:hover  .list{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <header id="pageHeader"></header>
+    <main id="reg">
+        <div class="container">
+            <!-- 路径 -->
+            <div class="path">
+                <a href="#">首页</a>
+                <span> > </span>
+                <span>注册</span>
+            </div>
+            <!-- 表单 -->
+            <div>
+                <!-- 左边 -->
+                <div class="left clearfix">
+                    <form action="#" method="post">
+                        <div class="register">
+                            
+                            <p class="tit">手机注册</p>
+                            <ul class="register_box">
+
+                                <li>
+                                    <p class="output_tel"></p>
+                                    <p >手机号</p>
+                                    <input type="text" id="username"/>
+                                    <s class="yes"></s>
+                                    <div id="verifyUserNameMsg"></div>
+                                </li>
+                                <li>
+                                    <p>验证</p>
+                                    <div class="slide" id="drag">
+                                    </div>
+                                    <div style="text-align:center;margin:50px 0;">
+                                    
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div>
+                                        <p>验证码</p>
+                                        <input type="text" style="width:135px;"/>
+                                        <s></s>
+                                    </div>
+                                    <a href="#" class="acode">获取验证码</a>
+                                </li>
+                                <li>
+                                    <p>密码</p>
+                                    <input type="password" id="password"/>
+                                    <s class="yes"></s>
+                                </li>
+                                <li>
+                                    <p>确认密码</p>
+                                    <input type="password" />
+                                    <s class="yes"></s>
+                                </li>
+                                <li>
+                                    <div>
+                                        <input type="checkbox" id="check" />
+                                    
+                                        我已阅读并同意 <a href="#">《本来生活网用户协议》</a>以及 <a href="#">《隐私政策》</a>
+                                    
+
+                                    </div>
+                                    
+                                </li>
+                                <li id="btnReg"><a href="#">立即注册</a></li>
+                                <li><p>已注册？<a href="#">立即登录</a></p></li>
+                            </ul>
+                            <ul class="other">
+                                <li>其它方式</li>
+                                <li>
+                                    <em><a href="#">新浪微博</a></em>
+                                    <em><a href="#">支付宝</a></em>
+                                    <em><a href="#">支付宝</a></em>
+                                    <em><a href="#">支付宝</a></em>
+                                    <em><a href="#">支付宝</a></em>
+                                    <em><a href="#">支付宝</a></em>
+                                    <em><a href="#">支付宝</a></em>
+                                    <em><a href="#">支付宝</a></em>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>    
+                <!-- 右边 -->
+                <div class="right">
+                <a href="#"></a>
+                    <img src="../images/register/dlhfyh.jpg" height="590" width="650" alt="" />
+                </div>
+            
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer id="pageFooter"></footer>
+</body>
+</html>

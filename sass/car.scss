@@ -1,0 +1,76 @@
+#car{
+
+    .car_top{
+        height: 120px;
+        width: 990px;
+        margin:0 auto;
+       div{
+        margin-top:25px;
+       }
+    }
+    .car_box{
+        width: 990px;
+        margin: 0 auto; 
+        .car_none{
+            float: left;
+            width: 990px;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .title{
+            // float: left;
+            height: 35px;
+            width: 990px;
+            .car_word{
+                font-size:16px;
+                float: left;
+            }
+            .car_login{
+                color: #666;
+                line-height: 35px;
+                float: right;
+            }
+        }
+
+        .list_all{
+            .list_tit{
+                height: 40px;
+                background-color: #fafbf8;
+                border-top: 1px solid #edecec;
+                border-bottom: 1px solid #edecec;
+                font-size:12px;
+                line-height: 40px;
+                input{
+                    float: left;
+                    margin: 13px 27px 0 35px;
+                }
+                span:nth-child(2){
+                    margin-right: 50px;
+                }
+                span:nth-child(3){
+                    margin-right: 290px;
+                }
+                span:nth-child(4){
+                    margin-right: 110px;
+                }
+                span:nth-child(5){
+                    margin-right: 55px;
+                }
+                span:nth-child(6){
+                    margin-right: 110px;
+                }
+                span:nth-child(7){
+                    margin-right: 35px;
+                }
+            }
+            ul{
+                li{
+                    border-bottom: 1px dotted #e1e1e1;
+                    padding: 20px 0;
+                    float: left;
+                    width: 990px;
+                }
+            }
+        }
+    }
+}

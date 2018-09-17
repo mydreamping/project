@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>详情页</title>
+    
+    <link rel="stylesheet" type="text/css" href="../css/detail.css" />
+    <link rel="stylesheet" type="text/css" href="../css/swiper.css" /> 
+    
+    <script src="../js/jquery-3.2.1.js" ></script>
+    <script src="../js/swiper.min.js" ></script>
+
+    <script>
+
+        jQuery(function($){
+            $('#pageHeader').load('header.html');
+            $('#pageFooter').load('footer.html');
+        });
+
+
+    </script>
+
+    <style type="text/css">
+       
+        .list{
+            display:none;
+        }
+        .head_menu_all:hover  .list{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <header id="pageHeader"></header>
+    <main id="detail">
+        <div class="container">
+            <div class="list_box">
+                <!-- 路径 -->
+                <div class="path">
+                    <a href="#">首页</a>
+                    <a href="#">镇店之宝</a>
+                    <a href="#">本来推荐</a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+                <!-- 图片上下一张 -->
+                <div class="good_box">
+                    <div class="smpic">
+                        <p></p>
+                        <div class="smallpic">
+                            <a href="#" class="on">
+                                <img src="../images/index/fruits/fruits_1.jpg" alt="" />
+                            </a>
+                        </div>
+                        <p></p>
+                    </div>
+                    <div class="bigpic"></div>
+                    <div class="good_num">
+                        <div><span>商品编号:</span></div>
+                        <div class="share" >
+
+                            <span><s></s>分享到</span>
+                            <span>收藏</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 商品详情 -->
+                <div class="goodinfo">
+                    
+                    <div class="name">
+                        <h1 class="product_name"></h1>
+                        <p class="context"></p>
+                    </div>
+                    <div class="intro_sales">
+                        <div class="intro_price">
+                            <p class="drop">促销价</p>
+                            <p class="price">
+                                <span></span>
+                            </p>
+                            <p class="note">
+                                <a href="#" class="note_on">降价通知</a>
+                            </p>
+                        </div>
+                        <div class="intro_app">
+                            <a href="#">手机购买</a>
+                        </div>
+                        <div class="good_buy">
+                            <ul>
+                                <li>
+                                <input type="text" class="num" value="1"/>
+                                <a href="#" class="up"> </a>
+                                <a href="#" class="down"></a>
+                                </li>
+                                <li>
+                                    <div class="btn_buy">
+                                        <a href="#"></a>
+                                    </div>
+                                    <div class="com_info">
+                                    好评率
+                                    <span class="socrecount"></span>(
+                                    <a href="#"><span></span>人评价</a>)
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="today"></div>
+                        <!-- 介绍 -->
+                        <div class="prompt"></div>
+                    </div>
+                </div>
+
+                <!-- 详情框 -->
+                <div class="box_detail">
+                    
+                    <!-- 优惠组合 -->
+                    <div class="compose"></div>
+                    <!-- 商品tab -->
+                    <div class="good_tab"></div>
+
+                    <!-- 图 评论 -->
+                    <div class="box_all">
+                        <!-- 详情图 -->
+                        <div></div>
+                        <!-- 用户评论 -->
+                        <div class="review"></div>
+                        <!-- 评论 -->
+                        <div class="comment">
+                            <div class="tab"></div>
+                            <!-- 全部评论 -->
+                            <div class="all_comment"></div>
+                            <div class="all_pic"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div class="comment_box">
+                <div class="read_left"></div>
+                <div class="box_right">
+                    <!-- 经常一起购买 -->
+                    <div>
+                        <dl>
+                            <dt><em><a href="#">经常一起购买</a></em></dt>
+                            <dd>
+                            <!-- 搭配 -->
+                                <div class="match">
+                                    <ul>
+                                        <li></li>
+                                    </ul>
+                                    <ul class="match_list">
+                                        <li></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+
+                                </div>
+                                <ol>
+                                    <li>
+                                        <p>已选择<span></span>商品</p>
+                                        <p>搭配价:<span></span></p>
+                                    </li>
+                                    <li class="btn_buy"></li>
+                                </ol>
+                            </dd>
+                        </dl>
+                        
+                    </div>
+                  
+
+                    <!-- tab -->
+                    <div class="good_detail_tab">
+                        <dl>
+                            <dt class="navlist">
+                                <em><a href="#" class="on">商品详情</a></em>
+                                <em><a href="#" class="on">服务保障</a></em>
+                                <em><a href="#" class="on">全部评论</a></em>
+                            </dt>
+                            <dd class="dtl_btn"></dd>
+                        </dl>
+
+                    </div>
+                    
+                    <!-- 商品详情 -->
+                    
+                    <div class="goods_all">
+                        <dl>
+                            <dt>
+                                <img src="../images/detail/detailsp_tit01.gif" height="30" width="980" alt="" />
+                            </dt>
+                            <dd></dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <img src="../images/detail/detailsp_tit02.gif" height="30" width="980" alt="" />
+                            </dt>
+                            <dd></dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <img src="../images/detail/detailsp_tit06.png" height="30" width="980" alt="" />
+                            </dt>
+                            <dd></dd>
+                        </dl>
+                        
+                    </div>
+                    <!-- 评论 -->
+                    <div class="review">
+                        <dl>
+                            <dt>
+                                <img src="../images/detail/detailsp_tit07.gif" height="30" width="980" alt="" />
+                            </dt>
+                            <dd></dd>
+                        </dl>
+                    </div>
+                    <div class="goods_comment"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="pageFooter"></footer>
+</body>
+</html>

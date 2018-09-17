@@ -1,0 +1,1103 @@
+
+#main{
+    
+    .banner{
+        
+        img{
+            width: 100%;
+            height:400px;
+        }
+        .swiper-container {
+               
+                background: #ccc;
+                height: 400px;
+            }
+            
+            .swiper-slide {
+                font-size: 60px;
+                text-align: center;
+                line-height: 300px;
+            }
+            
+            .swiper-pagination-bullet {
+                width: 163px;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                color: #fff;
+                background: #666;
+                font-size: 12px;
+            }
+            
+            .swiper-pagination-bullet-active {
+                color: #fff;
+                background: orangered;
+            }
+    }
+
+    .ad{
+        height: 175px;
+        margin-bottom:10px;
+        ul{
+            float: left;
+            li{
+                float: left;
+                width: 300px;
+                img{
+                    width: 300px;
+                    height: 175px;
+                }
+            }
+        }
+    }
+    .box_1{
+        height: 266px;
+        position:relative;
+        .new{
+            width: 1010px;
+            height: 266px;
+            float: left;
+            .tab{
+                float: left;
+                text-align:center;
+                    background-color: #f8f8f6;
+                border-right: 1px solid #c2d58f;
+                border-left: 1px solid #e5e5e5;
+                border-top: 1px solid #e5e5e5;
+                border-bottom: 1px solid #e5e5e5;
+                float: left;
+                width: 125px;
+                height: 266px;
+                position: relative;
+                z-index: 0;
+                p{  
+                    height: 46px;
+                    line-height: 46px;
+                    
+                }
+
+            }
+            .on{
+                color: #78a000;
+                background-color: #fff;
+                border-top: 1px solid #c2d58f;
+                border-bottom: 1px solid #c2d58f;
+                border-left: 4px solid #91be16;
+                width: 125px;
+                padding-right: 4px;
+
+            }
+            .good{
+                // display:none;
+                position:absolute;
+                left:125px; 
+            }
+            .new_good{
+                width: 885px; 
+                height: 266px;  
+                border:1px solid #c2d58f;
+                float: left;
+                display:block;
+                ul{
+                    float: left;
+                    li{
+                        float: left;
+                        border: 4px solid #fff;
+                        width: 176px;
+                        height: 256px;
+                        padding: 0 14px;
+                        position: relative;
+                        img{
+                            width: 148px;
+                            height: 148px;
+                        }
+                        
+                    }
+                }
+            }
+            .hot_good{
+                width: 885px; 
+                height: 266px;  
+                border:1px solid #c2d58f;
+                float: left;
+                display:none;
+
+                ul{
+                    float: left;
+                    li{
+                        float: left;
+                        border: 4px solid #fff;
+                        width: 170px;
+                        height: 256px;
+                        padding: 0 14px;
+                        position: relative;
+                        img{
+                            width: 148px;
+                            height: 148px;
+                        }
+                    }
+                }
+            }
+        }
+        .note{
+            height: 266px;
+            width: 175px;
+            float: right;
+            border:1px solid #c2d58f;
+            p:nth-child(1){
+                font-size:18px;
+                height: 45px;
+                line-height: 45px;
+                text-align:center;
+                color:#626252;
+            }
+            
+                
+            ul{
+                float: left;
+                padding:0 10px 15px;
+               li{
+                display:block;
+                overflow: hidden;
+                text-overflow: clip;
+                width: 155px;
+                height: 28px;
+                line-height: 28px;
+                white-space:nowrap;
+                float: left;
+               }
+            }
+
+            
+            
+            img{
+                width: 173px;
+                height: 95px;
+            }
+        }
+    }
+    .origin{
+        height: 470px;
+        background:url(../images/index/origin/bg.jpg);
+        position:relative;
+        .slogo{
+            display:block;
+            width: 123px;
+            height: 45px;
+            position:absolute;
+            top:0;
+            left:0;
+            background:url(../images/index/origin/n_bg_.png) no-repeat;
+            background-position: 0 -85px;    
+            padding-left:49px;
+            line-height: 45px;
+            color: #fff;
+            font-size:16px;
+        }
+        .path{
+            height: 170px;
+            background:url(../images/index/origin/path.png);
+        }
+        .origin_good{
+            width: 1160px;
+            height: 280px;
+            float: left;
+            position: relative;
+            z-index: 9;
+            margin-left: 20px;
+            display: inline;
+            ul{
+                float: left;
+                padding:0 20px;
+                background-color: #fff;
+                box-shadow: 3px 1px 9px rgba(0,0,0,.2);
+                li{
+                    float: left;
+                    width: 186px;
+                    height: 272px;
+                    padding: 4px;
+                    position: relative;
+                    text-align:center;
+                    img{
+                        width: 140px;
+                        height: 140px;
+                    }
+     
+                }
+            }
+           } 
+    }
+    .ad2{
+        height: 120px;
+        // background-color: #0093dd;
+        margin-bottom:10px;
+    }
+    .recommend{
+        height: 578px;
+    }
+    .fruits{
+        // height: 578px;
+        .tab_title{
+            // height: 35px;
+            // line-height: 35px;
+            border-bottom:1px solid #91b678;
+        }
+        .tab_tit{
+            float: left;
+            width: 300px;
+            height: 35px;
+            line-height: 35px;
+            margin: 6px 0 0 15px;
+            padding-left:40px;
+            background:url(../images/index/fruits/fruits.png) no-repeat;
+            background-position: -86px -90px;
+            
+            a{
+                font-size:18px;
+                
+            }
+        }
+        
+        .tab_btn{
+            text-align:center;
+            span{
+                display:block;
+                float: left;
+                width: 126px;
+                height: 48px;
+                line-height: 48px;
+                // font: 400 16px/37px "Microsoft YaHei";
+                font-size:16px;
+                color: #769b06;
+               
+                // width: 124px;
+            }
+
+            .ontab{
+                padding: 0 0 6px;
+                border-top: 5px solid #91be16;
+                border-left: 1px solid #91b678;
+                border-right: 1px solid #91b678;
+                background-color: #fff;
+            }
+        }
+
+
+        .pic{
+            .left{
+                float: left;
+                ul{
+                    border-top: 1px solid #eee;
+                    border-bottom: 1px solid #eee;
+                    border-left: 1px solid #eee;
+                    float: left;
+                    width: 315px;
+                    height: 121px;
+                    background-color: #fbfbfb;
+                    overflow: hidden;
+                    padding: 7px 0 0 30px;
+                    li{
+                        float: left;
+                        width: 52px;
+                        height: 52px;
+                        margin: 0 15px 10px 0;
+                        text-align:center;
+                        a{
+                            width: 50px;
+                            height: 50px;
+                            line-height: 20px;
+                            border: 1px solid #a6ca44;
+                            display: block;
+                            text-align: center;
+                            font-size:14px;
+                            color: #78a000;
+                            background-color: #fff;
+                            border-radius: 10px;
+                            text-overflow: clip;
+                            display: block;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+            .right{
+                float: right;
+                width: 885px;
+                height: 530px;
+                position:relative;
+                .f_good{
+                    position:absolute;
+                    width: 885px;
+                    height: 530px;
+                    display:none;
+                }
+                .hot_fruits{
+                    display:block;
+                    // background-color: pink;
+                    ul{
+                        float: left;
+                        li{
+                            width: 176px;
+                            float: left;
+                            height: 264px;
+                            border-bottom: 1px solid #eee;
+                            border-right: 1px solid #eee;
+                            background-color: #fff;
+                            overflow: hidden;
+                            position: relative;
+                            .box{
+                               border: 4px solid #fff;
+                                width: 176px;
+                                height: 256px;
+                                padding: 0 14px;
+                                position: relative;
+                                img{
+                                    width: 140px;
+                                    } 
+                            }
+                            
+                            
+                        }
+                    }
+
+                }
+                .import{
+                    background-color: yellow;
+
+                    ul{
+                        float: left;
+                        li{
+                            width: 176px;
+                            float: left;
+                            height: 264px;
+                            border-bottom: 1px solid #eee;
+                            border-right: 1px solid #eee;
+                            background-color: #fff;
+                            overflow: hidden;
+                            position: relative;
+                            .box{
+                               border: 4px solid #fff;
+                                width: 176px;
+                                height: 256px;
+                                padding: 0 14px;
+                                position: relative;
+                                img{
+                                    width: 140px;
+                                    } 
+                            }
+                            
+                            
+                        }
+                    }
+                }
+                .make_in_china{
+                    background-color: blue;
+                }
+            }
+        }
+
+    }
+    .seafood{
+        // height: 578px;
+        .tab_title{
+            // height: 35px;
+            // line-height: 35px;
+            border-bottom:1px solid #91b678;
+        }
+        .tab_tit{
+            float: left;
+            width: 300px;
+            height: 35px;
+            line-height: 35px;
+            margin: 6px 0 0 15px;
+            padding-left:40px;
+            background:url(../images/index/fruits/fruits.png) no-repeat;
+            background-position: -86px -90px;
+            
+            a{
+                font-size:18px;
+                
+            }
+        }
+        
+        .tab_btn{
+            text-align:center;
+            span{
+                display:block;
+                float: left;
+                width: 126px;
+                height: 48px;
+                line-height: 48px;
+                // font: 400 16px/37px "Microsoft YaHei";
+                font-size:16px;
+                color: #769b06;
+               
+                // width: 124px;
+            }
+            
+            .ontab{
+                padding: 0 0 6px;
+                border-top: 5px solid #91be16;
+                border-left: 1px solid #91b678;
+                border-right: 1px solid #91b678;
+                background-color: #fff;
+            }
+        }
+
+
+        .pic{
+            .left{
+                float: left;
+                ul{
+                    border-top: 1px solid #eee;
+                    border-bottom: 1px solid #eee;
+                    border-left: 1px solid #eee;
+                    float: left;
+                    width: 315px;
+                    height: 121px;
+                    background-color: #fbfbfb;
+                    overflow: hidden;
+                    padding: 7px 0 0 30px;
+                    li{
+                        float: left;
+                        width: 52px;
+                        height: 52px;
+                        margin: 0 15px 10px 0;
+                        text-align:center;
+                        a{
+                            width: 50px;
+                            height: 50px;
+                            line-height: 20px;
+                            border: 1px solid #a6ca44;
+                            display: block;
+                            text-align: center;
+                            font-size:14px;
+                            color: #78a000;
+                            background-color: #fff;
+                            border-radius: 10px;
+                            text-overflow: clip;
+                            display: block;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+            .right{
+                float: right;
+                width: 885px;
+                height: 530px;
+                position:relative;
+                .f_good{
+                    position:absolute;
+                    width: 885px;
+                    height: 530px;
+                   
+                }
+            }
+        }
+
+    }
+    .home{
+        // height: 578px;
+        .tab_title{
+            // height: 35px;
+            // line-height: 35px;
+            border-bottom:1px solid #91b678;
+        }
+        .tab_tit{
+            float: left;
+            width: 300px;
+            height: 35px;
+            line-height: 35px;
+            margin: 6px 0 0 15px;
+            padding-left:40px;
+            background:url(../images/index/fruits/fruits.png) no-repeat;
+            background-position: -86px -90px;
+            
+            a{
+                font-size:18px;
+                
+            }
+        }
+        
+        .tab_btn{
+            text-align:center;
+            span{
+                display:block;
+                float: left;
+                width: 126px;
+                height: 48px;
+                line-height: 48px;
+                // font: 400 16px/37px "Microsoft YaHei";
+                font-size:16px;
+                color: #769b06;
+               
+                // width: 124px;
+            }
+            
+            .ontab{
+                padding: 0 0 6px;
+                border-top: 5px solid #91be16;
+                border-left: 1px solid #91b678;
+                border-right: 1px solid #91b678;
+                background-color: #fff;
+            }
+        }
+
+
+        .pic{
+            .left{
+                float: left;
+                ul{
+                    border-top: 1px solid #eee;
+                    border-bottom: 1px solid #eee;
+                    border-left: 1px solid #eee;
+                    float: left;
+                    width: 315px;
+                    height: 121px;
+                    background-color: #fbfbfb;
+                    overflow: hidden;
+                    padding: 7px 0 0 30px;
+                    li{
+                        float: left;
+                        width: 52px;
+                        height: 52px;
+                        margin: 0 15px 10px 0;
+                        text-align:center;
+                        a{
+                            width: 50px;
+                            height: 50px;
+                            line-height: 20px;
+                            border: 1px solid #a6ca44;
+                            display: block;
+                            text-align: center;
+                            font-size:14px;
+                            color: #78a000;
+                            background-color: #fff;
+                            border-radius: 10px;
+                            text-overflow: clip;
+                            display: block;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+            .right{
+                float: right;
+                width: 885px;
+                height: 530px;
+                position:relative;
+                .f_good{
+                    position:absolute;
+                    width: 885px;
+                    height: 530px;
+                   
+                }
+            }
+        }
+
+    }
+    .food{
+        // height: 578px;
+        .tab_title{
+            // height: 35px;
+            // line-height: 35px;
+            border-bottom:1px solid #91b678;
+        }
+        .tab_tit{
+            float: left;
+            width: 300px;
+            height: 35px;
+            line-height: 35px;
+            margin: 6px 0 0 15px;
+            padding-left:40px;
+            background:url(../images/index/fruits/fruits.png) no-repeat;
+            background-position: -86px -90px;
+            
+            a{
+                font-size:18px;
+                
+            }
+        }
+        
+        .tab_btn{
+            text-align:center;
+            span{
+                display:block;
+                float: left;
+                width: 126px;
+                height: 48px;
+                line-height: 48px;
+                // font: 400 16px/37px "Microsoft YaHei";
+                font-size:16px;
+                color: #769b06;
+               
+                // width: 124px;
+            }
+            
+            .ontab{
+                padding: 0 0 6px;
+                border-top: 5px solid #91be16;
+                border-left: 1px solid #91b678;
+                border-right: 1px solid #91b678;
+                background-color: #fff;
+            }
+        }
+
+
+        .pic{
+            .left{
+                float: left;
+                ul{
+                    border-top: 1px solid #eee;
+                    border-bottom: 1px solid #eee;
+                    border-left: 1px solid #eee;
+                    float: left;
+                    width: 315px;
+                    height: 121px;
+                    background-color: #fbfbfb;
+                    overflow: hidden;
+                    padding: 7px 0 0 30px;
+                    li{
+                        float: left;
+                        width: 52px;
+                        height: 52px;
+                        margin: 0 15px 10px 0;
+                        text-align:center;
+                        a{
+                            width: 50px;
+                            height: 50px;
+                            line-height: 20px;
+                            border: 1px solid #a6ca44;
+                            display: block;
+                            text-align: center;
+                            font-size:14px;
+                            color: #78a000;
+                            background-color: #fff;
+                            border-radius: 10px;
+                            text-overflow: clip;
+                            display: block;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+            .right{
+                float: right;
+                width: 885px;
+                height: 530px;
+                position:relative;
+                .f_good{
+                    position:absolute;
+                    width: 885px;
+                    height: 530px;
+                   
+                }
+            }
+        }
+
+    }
+
+    .milk{
+        // height: 578px;
+        .tab_title{
+            // height: 35px;
+            // line-height: 35px;
+            border-bottom:1px solid #91b678;
+        }
+        .tab_tit{
+            float: left;
+            width: 300px;
+            height: 35px;
+            line-height: 35px;
+            margin: 6px 0 0 15px;
+            padding-left:40px;
+            background:url(../images/index/fruits/fruits.png) no-repeat;
+            background-position: -86px -90px;
+            
+            a{
+                font-size:18px;
+                
+            }
+        }
+        
+        .tab_btn{
+            text-align:center;
+            span{
+                display:block;
+                float: left;
+                width: 126px;
+                height: 48px;
+                line-height: 48px;
+                // font: 400 16px/37px "Microsoft YaHei";
+                font-size:16px;
+                color: #769b06;
+               
+                // width: 124px;
+            }
+            
+            .ontab{
+                padding: 0 0 6px;
+                border-top: 5px solid #91be16;
+                border-left: 1px solid #91b678;
+                border-right: 1px solid #91b678;
+                background-color: #fff;
+            }
+        }
+
+
+        .pic{
+            .left{
+                float: left;
+                ul{
+                    border-top: 1px solid #eee;
+                    border-bottom: 1px solid #eee;
+                    border-left: 1px solid #eee;
+                    float: left;
+                    width: 315px;
+                    height: 121px;
+                    background-color: #fbfbfb;
+                    overflow: hidden;
+                    padding: 7px 0 0 30px;
+                    li{
+                        float: left;
+                        width: 52px;
+                        height: 52px;
+                        margin: 0 15px 10px 0;
+                        text-align:center;
+                        a{
+                            width: 50px;
+                            height: 50px;
+                            line-height: 20px;
+                            border: 1px solid #a6ca44;
+                            display: block;
+                            text-align: center;
+                            font-size:14px;
+                            color: #78a000;
+                            background-color: #fff;
+                            border-radius: 10px;
+                            text-overflow: clip;
+                            display: block;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+            .right{
+                float: right;
+                width: 885px;
+                height: 530px;
+                position:relative;
+                .f_good{
+                    position:absolute;
+                    width: 885px;
+                    height: 530px;
+                   
+                }
+            }
+        }
+
+    }
+    .snacks{
+        // height: 578px;
+        .tab_title{
+            // height: 35px;
+            // line-height: 35px;
+            border-bottom:1px solid #91b678;
+        }
+        .tab_tit{
+            float: left;
+            width: 300px;
+            height: 35px;
+            line-height: 35px;
+            margin: 6px 0 0 15px;
+            padding-left:40px;
+            background:url(../images/index/fruits/fruits.png) no-repeat;
+            background-position: -86px -90px;
+            
+            a{
+                font-size:18px;
+                
+            }
+        }
+        
+        .tab_btn{
+            text-align:center;
+            span{
+                display:block;
+                float: left;
+                width: 126px;
+                height: 48px;
+                line-height: 48px;
+                // font: 400 16px/37px "Microsoft YaHei";
+                font-size:16px;
+                color: #769b06;
+               
+                // width: 124px;
+            }
+            
+            .ontab{
+                padding: 0 0 6px;
+                border-top: 5px solid #91be16;
+                border-left: 1px solid #91b678;
+                border-right: 1px solid #91b678;
+                background-color: #fff;
+            }
+        }
+
+
+        .pic{
+            .left{
+                float: left;
+                ul{
+                    border-top: 1px solid #eee;
+                    border-bottom: 1px solid #eee;
+                    border-left: 1px solid #eee;
+                    float: left;
+                    width: 315px;
+                    height: 121px;
+                    background-color: #fbfbfb;
+                    overflow: hidden;
+                    padding: 7px 0 0 30px;
+                    li{
+                        float: left;
+                        width: 52px;
+                        height: 52px;
+                        margin: 0 15px 10px 0;
+                        text-align:center;
+                        a{
+                            width: 50px;
+                            height: 50px;
+                            line-height: 20px;
+                            border: 1px solid #a6ca44;
+                            display: block;
+                            text-align: center;
+                            font-size:14px;
+                            color: #78a000;
+                            background-color: #fff;
+                            border-radius: 10px;
+                            text-overflow: clip;
+                            display: block;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+            .right{
+                float: right;
+                width: 885px;
+                height: 530px;
+                position:relative;
+                .f_good{
+                    position:absolute;
+                    width: 885px;
+                    height: 530px;
+                   
+                }
+            }
+        }
+
+    }
+
+    .drink{
+        // height: 578px;
+        .tab_title{
+            // height: 35px;
+            // line-height: 35px;
+            border-bottom:1px solid #91b678;
+        }
+        .tab_tit{
+            float: left;
+            width: 300px;
+            height: 35px;
+            line-height: 35px;
+            margin: 6px 0 0 15px;
+            padding-left:40px;
+            background:url(../images/index/fruits/fruits.png) no-repeat;
+            background-position: -86px -90px;
+            
+            a{
+                font-size:18px;
+                
+            }
+        }
+        
+        .tab_btn{
+            text-align:center;
+            span{
+                display:block;
+                float: left;
+                width: 126px;
+                height: 48px;
+                line-height: 48px;
+                // font: 400 16px/37px "Microsoft YaHei";
+                font-size:16px;
+                color: #769b06;
+               
+                // width: 124px;
+            }
+            
+            .ontab{
+                padding: 0 0 6px;
+                border-top: 5px solid #91be16;
+                border-left: 1px solid #91b678;
+                border-right: 1px solid #91b678;
+                background-color: #fff;
+            }
+        }
+
+
+        .pic{
+            .left{
+                float: left;
+                ul{
+                    border-top: 1px solid #eee;
+                    border-bottom: 1px solid #eee;
+                    border-left: 1px solid #eee;
+                    float: left;
+                    width: 315px;
+                    height: 121px;
+                    background-color: #fbfbfb;
+                    overflow: hidden;
+                    padding: 7px 0 0 30px;
+                    li{
+                        float: left;
+                        width: 52px;
+                        height: 52px;
+                        margin: 0 15px 10px 0;
+                        text-align:center;
+                        a{
+                            width: 50px;
+                            height: 50px;
+                            line-height: 20px;
+                            border: 1px solid #a6ca44;
+                            display: block;
+                            text-align: center;
+                            font-size:14px;
+                            color: #78a000;
+                            background-color: #fff;
+                            border-radius: 10px;
+                            text-overflow: clip;
+                            display: block;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+            .right{
+                float: right;
+                width: 885px;
+                height: 530px;
+                position:relative;
+                .f_good{
+                    position:absolute;
+                    width: 885px;
+                    height: 530px;
+                   
+                }
+            }
+        }
+
+    }
+
+    .kitchen{
+        // height: 578px;
+        .tab_title{
+            // height: 35px;
+            // line-height: 35px;
+            border-bottom:1px solid #91b678;
+        }
+        .tab_tit{
+            float: left;
+            width: 300px;
+            height: 35px;
+            line-height: 35px;
+            margin: 6px 0 0 15px;
+            padding-left:40px;
+            background:url(../images/index/fruits/fruits.png) no-repeat;
+            background-position: -86px -90px;
+            
+            a{
+                font-size:18px;
+                
+            }
+        }
+        
+        .tab_btn{
+            text-align:center;
+            span{
+                display:block;
+                float: left;
+                width: 126px;
+                height: 48px;
+                line-height: 48px;
+                // font: 400 16px/37px "Microsoft YaHei";
+                font-size:16px;
+                color: #769b06;
+               
+                // width: 124px;
+            }
+            
+            .ontab{
+                padding: 0 0 6px;
+                border-top: 5px solid #91be16;
+                border-left: 1px solid #91b678;
+                border-right: 1px solid #91b678;
+                background-color: #fff;
+            }
+        }
+
+
+        .pic{
+            .left{
+                float: left;
+                ul{
+                    border-top: 1px solid #eee;
+                    border-bottom: 1px solid #eee;
+                    border-left: 1px solid #eee;
+                    float: left;
+                    width: 315px;
+                    height: 121px;
+                    background-color: #fbfbfb;
+                    overflow: hidden;
+                    padding: 7px 0 0 30px;
+                    li{
+                        float: left;
+                        width: 52px;
+                        height: 52px;
+                        margin: 0 15px 10px 0;
+                        text-align:center;
+                        a{
+                            width: 50px;
+                            height: 50px;
+                            line-height: 20px;
+                            border: 1px solid #a6ca44;
+                            display: block;
+                            text-align: center;
+                            font-size:14px;
+                            color: #78a000;
+                            background-color: #fff;
+                            border-radius: 10px;
+                            text-overflow: clip;
+                            display: block;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+            .right{
+                float: right;
+                width: 885px;
+                height: 530px;
+                position:relative;
+                .f_good{
+                    position:absolute;
+                    width: 885px;
+                    height: 530px;
+                   
+                }
+            }
+        }
+
+    }
+}

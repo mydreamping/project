@@ -1,0 +1,101 @@
+#foot a {
+  color: #000;
+  font-size: 12px;
+}
+#foot .explain {
+  height: 120px;
+}
+#foot .explain dl:first-child {
+  margin-left: 10px;
+}
+#foot .explain dl {
+  float: left;
+  margin-right: 50px;
+  padding-top: 40px;
+}
+#foot .explain dl dt {
+  width: 28px;
+  height: 40px;
+  float: left;
+  margin: 0 10px;
+  background: url(../images/index/foot/foot_icon.gif) no-repeat;
+}
+#foot .explain dl dd span {
+  display: block;
+  float: left;
+  font: 400 20px/22px "Microsoft YaHei";
+  color: #90b42f;
+}
+#foot .explain dl dd span:nth-child(2) {
+  font-size: 14px;
+}
+#foot .foot_link {
+  padding: 20px 0 20px 70px;
+  border-top: 0;
+}
+#foot .foot_link ul {
+  width: 920px;
+  float: left;
+  margin-left: 120px;
+}
+#foot .foot_link ul li {
+  float: left;
+}
+#foot .foot_link ul li dl {
+  width: 230px;
+  height: 160px;
+}
+#foot .foot_link ul li dl dt {
+  height: 26px;
+  margin-bottom: 10px;
+  color: #666;
+  padding-left: 35px;
+  background: url(../images/index/foot/foot_icon.gif) no-repeat;
+  background-position: 0 -250px;
+}
+#foot .foot_link ul li dl dd {
+  line-height: 25px;
+  margin-left: 10px;
+  padding-left: 25px;
+  border-left: 1px dotted #ccc;
+}
+#foot .info {
+  text-align: center;
+}
+#foot .info p:nth-child(1) {
+  height: 30px;
+  font-weight: bold;
+  color: #666;
+}
+#foot .info p:nth-child(1) img {
+  margin-right: 5px;
+}
+#foot .info p:nth-child(2) {
+  height: 24px;
+}
+#foot .info p:nth-child(2) span {
+  border-right: 1px solid #ccc;
+}
+#foot .info p:nth-child(2) span:last-child {
+  border-right: none;
+}
+#foot .info p:nth-child(2) a {
+  padding: 0 10px;
+}
+#foot .info p:nth-child(3) {
+  height: 24px;
+}
+#foot .info p:nth-child(3) span {
+  border-right: 1px solid #ccc;
+}
+#foot .info p:nth-child(3) span:last-child {
+  border-right: none;
+}
+#foot .info p:nth-child(3) a {
+  padding: 0 10px;
+}
+#foot .info p:nth-child(4) {
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=footer.css.map */

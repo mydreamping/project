@@ -1,0 +1,138 @@
+#login .path {
+  width: 1200px;
+  float: left;
+  color: #959595;
+  line-height: 40px;
+}
+#login .left {
+  float: left;
+}
+#login .left .register {
+  float: left;
+  width: 460px;
+  border: 1px solid #ddd;
+  margin-bottom: 50px;
+  height: auto !important;
+  height: 588px;
+  min-height: 388px;
+}
+#login .left .register .tit {
+  position: relative;
+  z-index: 0;
+  padding: 35px;
+}
+#login .left .register .register_box {
+  height: auto !important;
+  min-height: 381px;
+  padding: 0 30px;
+  float: left;
+  width: 460px;
+}
+#login .left .register .register_box li {
+  float: left;
+  width: 400px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  padding: 7px 0;
+  position: relative;
+  z-index: 0;
+}
+#login .left .register .register_box li p {
+  float: left;
+  width: 100px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+  font-size: 14px;
+  margin-right: 10px;
+  display: inline;
+}
+#login .left .register .register_box li:nth-last-child(3) {
+  border: 0 none;
+}
+#login .left .register .register_box li:nth-last-child(3) input {
+  margin: 0;
+}
+#login .left .register .register_box li:nth-last-child(2) {
+  background-color: #ff6900;
+  text-align: center;
+}
+#login .left .register .register_box li:nth-last-child(2) a {
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  color: #fff;
+}
+#login .left .register .register_box li:last-child {
+  border: 0 none;
+}
+#login .left .register .register_box li:last-child p {
+  float: right;
+  width: 250px;
+  border: 0 none;
+}
+#login .left .register .register_box .acode {
+  display: block;
+  float: right;
+  width: 130px;
+  border: 1px solid #8ab700;
+  color: #8ab700;
+  display: block;
+  font: 400 14px/42px "Microsoft YaHei";
+  text-align: center;
+}
+#login .left .register .other {
+  padding: 0 30px;
+  float: left;
+  width: 460px;
+  border-top: 5px solid #f4f4f4;
+  padding-bottom: 10px;
+}
+#login .left .register .other li:first-child {
+  height: 50px;
+  line-height: 50px;
+}
+#login .left .register .other li em {
+  margin: 0 10px 10px 0;
+  padding: 0;
+  float: left;
+  font-size: 12px;
+  color: #666;
+  padding: 0 6px 0 32px;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #eaeaea;
+  white-space: nowrap;
+  width: auto;
+  background: url(../images/register/login_icon.png) 6px -198px no-repeat #fbfbfb;
+}
+#login .left .yes {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  background: url(../images/register/login_icon.png) no-repeat;
+  background-position: 0 -102px;
+}
+#login .left .no {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  background: url(//image.benlailife.com/webStatic/images/login_ico_ec3070b7.png) no-repeat;
+  background-position: 0 -137px;
+}
+#login .right {
+  float: left;
+  margin-left: 90px;
+}
+#login .right a {
+  color: #666;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=login.css.map */

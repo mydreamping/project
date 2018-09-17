@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>购物车</title>
+    <link rel="stylesheet" type="text/css" href="../css/header.css" />
+    <link rel="stylesheet" type="text/css" href="../css/car.css" />
+    <link rel="stylesheet" type="text/css" href="../css/swiper.css" /> 
+
+    <link rel="stylesheet" href="../css/car.css">
+  
+    <script src="../js/jquery-3.2.1.js" ></script>
+    <!-- <script src="../js/swiper.min.js" ></script> -->
+    
+    
+    <script>
+
+        jQuery(function($){
+            // $('#pageHeader').load('header.html');
+            $('#pageFooter').load('footer.html');
+        });
+
+
+    </script>
+
+    <style type="text/css">
+        .list{
+            display:none;
+        }
+        .head_menu_all:hover  .list{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <header id="headerView">
+        <div class="container clearfix" >
+            <div class="head_top" style="width: 990px;margin:0 auto">
+                        <div class="login" id="welcomlogin">
+                            你好，请
+                            <a href="#">[登录]</a>
+                            <a href="#">[注册]</a>
+                            <a href="#">[机构会员]</a>
+                        </div>
+                        <div class="city">
+                            <a href="#">广州</a>
+                        </div>
+                        <div class="menu">
+                            <ul>
+                                <li><span>我的订单</span></li>
+                                <li><span>本来礼品</span></li>
+                                <li>
+                                    <span class="download">掌上本来</span>
+                                    <div>
+                                        <img src="../images/index/head/code_weixin.gif" alt="" />
+                                        <p>扫描下载客户端</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="serve up">客户服务</span>
+                                    <dl class="con">
+                                        <dd>在线客服</dd>
+                                        <dd>联系客服</dd>
+                                        <dd>销售热线</dd>
+                                        <dd>帮助中心</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+            </div>
+            
+        </div>
+    </header>
+    <main id="car">
+        <div class="container clearfix">
+                
+            <div class="car_top">
+                <div class="logo fl">
+                    <img src="../images/car/logo_new.gif" height="54" width="136" alt="" />
+                </div>
+                <div class="car_logo fr">
+                    <img src="../images/car/cart.gif" height="46" width="550" alt="" />
+                </div>
+            </div>
+            
+            <div class="car_box">
+                <div class="car_none">
+                    <img src="../images/car/cart_none.png" height="143" width="139" alt="" />
+                    <p>您还没有购买过商品，去逛逛吧</p>
+                </div>
+                <div class="title" style="display:none">
+                    <div class="car_word">
+                        我的购物车
+                    </div>
+                    <div class="car_login">
+                        现在
+                        <a href="#"><img src="../images/car/cart_btn01.gif" height="24" width="38" alt="" /></a>
+                        购物车的商品将永久保存
+                    </div>
+                </div>
+
+                <div class="list_all" style="display:none">
+                    <div class="list_tit">
+                        
+                            <input type="checkbox" />
+                            <span>全选</span>
+                            <span>商品</span>
+                            <span>单价</span>
+                            <span>购买数量</span>
+                            <span>小计</span>
+                            <span>库存状态</span>
+                            <span>操作</span>
+                        
+                    </div>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="pageFooter"></footer>
+</body>
+</html>

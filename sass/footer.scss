@@ -1,0 +1,111 @@
+#foot{
+    a{
+        color:#000;
+        font-size:12px;
+    }
+    .explain{
+        height: 120px;
+        
+        dl:first-child{
+            margin-left:10px;
+        }
+
+         dl{
+            float: left;
+            margin-right: 50px;
+            padding-top: 40px;
+            dt{
+                width: 28px;
+                height: 40px;
+                float: left;
+                margin:0 10px;
+                 background: url(../images/index/foot/foot_icon.gif) no-repeat;
+            }
+            dd span{
+                display: block;
+                float: left;  
+                font: 400 20px/22px "Microsoft YaHei";
+                color: #90b42f;
+            }
+            dd span:nth-child(2){
+                font-size:14px;
+            }
+        }
+    }
+
+
+    .foot_link{
+            
+            padding: 20px 0 20px 70px;
+            // height: 160px;
+            border-top: 0;
+           
+            ul{
+                width: 920px;
+                float: left;
+                margin-left: 120px;
+                li{
+                    float: left;
+                    dl{
+                        width: 230px;
+                        height: 160px;    
+                        dt{
+                            height: 26px;
+                            margin-bottom: 10px;
+                            color: #666;
+                            padding-left: 35px;
+                            background: url(../images/index/foot/foot_icon.gif) no-repeat;
+                            background-position: 0 -250px;
+                        }
+                        dd{
+                            line-height: 25px;
+                            margin-left: 10px;
+                            padding-left: 25px;
+                            border-left: 1px dotted #ccc;
+                        }
+                    }
+
+                }
+            }
+    }
+
+    .info{
+        text-align:center;
+        p:nth-child(1){
+            height: 30px;
+            font-weight:bold;
+            color:#666;
+            img{
+                margin-right:5px;
+            }
+        }
+        p:nth-child(2){
+            height: 24px;
+            span{
+                border-right:1px solid #ccc;
+            }
+            span:last-child{
+                border-right:none;
+            }
+            a{
+                padding:0 10px;
+            }
+        }
+        p:nth-child(3){
+            height: 24px;
+
+            span{
+                border-right:1px solid #ccc;
+            }
+            span:last-child{
+                border-right:none;
+            }
+            a{
+                padding:0 10px;
+            }
+        }
+        p:nth-child(4){
+            font-size:12px;
+        }
+    }
+}
