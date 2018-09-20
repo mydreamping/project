@@ -47,8 +47,16 @@
                             display: inline;
                         }
                     }
-                   
-
+                    li:nth-child(1){
+                        border:0 none;
+                        margin-bottom: 0px;
+                        padding:0;
+                    }
+                    li:nth-child(3){
+                        border:0 none;
+                        margin-bottom: 0px;
+                        padding:0;
+                    }
                     li:nth-last-child(3){
 
                         border:0 none;

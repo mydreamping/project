@@ -33,7 +33,7 @@
                         float: left;
                         width: 400px;
                         border: 1px solid #ddd;
-                        margin-bottom: 30px;
+                        margin-bottom: 15px;
                         padding: 7px 0;
                         position: relative;
                         z-index: 0;
@@ -47,7 +47,12 @@
                             display: inline;
                         }
                     }
-                    li:nth-child(2){
+                    li:nth-child(1){
+                        border:0 none;
+                        margin-bottom:0;
+                        height: 30px;
+                    }
+                    li:nth-child(3){
                         border:0 none;
                         p{
                             float: left;
@@ -69,7 +74,7 @@
                             border: 1px solid #ddd;
                         }
                     }
-                    li:nth-child(3){
+                    li:nth-child(4){
                         border:0 none;
                         div{
                             float: left;
@@ -78,7 +83,16 @@
                             line-height: 44px;
                         }
                     }
+                    li:nth-child(5){
+                        border:0 none;
+                        margin-bottom:0;
+                        // height: 30px;
+                    }
+                    li:nth-last-child(5){
 
+                        border:0 none;
+                        margin-bottom:0;
+                    }
                     li:nth-last-child(3){
 
                         border:0 none;
@@ -90,11 +104,11 @@
                             // float: left;
                             background-color: #bbb;
                             text-align: center;
-                            a{
+                            input{
                                 width: 100%;
                                 font-size:24px;
                                 color: #fff;
-                                // background-color: #ff6900;
+                                background-color: #bbb;
                                 
                             }
                     }

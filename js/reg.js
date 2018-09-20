@@ -3,11 +3,6 @@
 
 $(function() {
 
-    $('#check').prop('checked','checked'){
-        
-    }
-  
-
     //用户名验证
     /*
     验证用户名
@@ -65,7 +60,7 @@ $(function() {
     $('#btnReg').click(function() {
         var usn = $('#username').val();
         var psw = $('#password').val();
-        console.log(psw);
+        // console.log(psw);
         $.ajax({
             type: "post",
             url: "../api/guestbook/index.php",
@@ -89,7 +84,24 @@ $(function() {
         });
     });
 
+
     
+    let checkbox = document.getElementById('check');
+    let btnReg = document.getElementById('btnReg');
+    console.log(checkbox.checked);
+
+    checkbox.onclick= function(){
+        
+        if(checkbox.checked){
+
+            btnReg.style.background = "#ff6900";
+        }else{
+            btnReg.style.background = "#bbb";
+
+        }
+    }
+
    
+
 
 });

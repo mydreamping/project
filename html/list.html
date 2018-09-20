@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>列表页</title>
+    <link rel="stylesheet" type="text/css" href="../css/list.css" />
+    <script src="../js/jquery-3.2.1.js" ></script>
+    <script src="../js/list.js"></script>    
+    <script src = "../js/common.js"></script>
+    <script>
+
+        jQuery(function($){
+            $('#pageHeader').load('header.html');
+            $('#pageFooter').load('footer.html');
+        });
+
+
+    </script>
+
+    <style type="text/css">
+        .list{
+            display:none;
+        }
+        .head_menu_all:hover  .list{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <header id="pageHeader"></header>
+    <main id="list">
+        
+        <div class="container">
+            <div class="path">
+                <a href="#">首页</a>
+                <a href="#"> >镇店之宝 </a>
+                <a href="#"> >本来推荐 </a>
+            </div>
+            <div>
+                <div class="left">
+                    <div class="list_nav">
+                        <p>镇店之宝</p>
+                        <dl>
+                            <dt>本来推荐</dt>
+                            <dd>
+                                <em>奇异果</em>
+                                <em>奇异果</em>
+                                <em>奇异果</em>
+                                <em>奇异果</em>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>本来推荐</dt>
+                            <dd></dd>
+                        </dl>
+                        <dl>
+                            <dt>本来推荐</dt>
+                            <dd></dd>
+                        </dl>
+                        
+                    </div>
+                    <div class="record">
+                        <p>浏览记录</p>
+                        <dl>
+                            <dt></dt>
+                            <dd></dd>
+                        </dl>
+                    </div>
+                </div>
+                
+                <div class="right">
+                    
+                </div>
+                <div class="right">
+                    <h1>本来推荐</h1>
+                    <div class="l_box">
+                        <ul>
+                            <li><a href="javascript:void(0)" class="default">默认</a></li>
+                            <li><a href="javascript:void(0)" class="sort-time">时间</a></li>
+                            <li id="sale"><a href="javascript:void(0)" class="sort-sale" >销量</a></li>
+                            <li id="price"><a href="javascript:void(0)" class="sort-price">价格</a></li>
+                            <li><a href="javascript:void(0)" class="sort-comment">评论</a></li>
+                        </ul>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="content">
+                        <div class="list_content clearfix" id="list_contenet"> 
+                            
+                        </div>
+                       
+                    </div>
+                     <div class="page" id="page">
+                            
+                        </div>
+                </div>
+            </div>
+        </div>    
+    
+
+    </main>
+    <footer id="pageFooter"></footer>
+</body>
+</html>

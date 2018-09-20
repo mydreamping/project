@@ -9,7 +9,7 @@
     
     <script src="../js/jquery-3.2.1.js" ></script>
     <script src="../js/swiper.min.js" ></script>
-
+    <script src="../js/login.js"></script>
     <script>
 
         jQuery(function($){
@@ -43,35 +43,36 @@
             <div>
                 <!-- 左边 -->
                 <div class="left clearfix">
-                    <form action="#" method="post">
+                    <form action="../index.html" method="post">
                         <div class="register">
                             
                             <p class="tit">本来会员登录</p>
                             <ul class="register_box">
+                                <li class="output_u"></li>
                                 <li>
                                     <p>邮箱/手机</p>
-                                    <input type="text" />
+                                    <input type="text" id="username" name="username"/>
                                     <s class="yes"></s>
                                 </li>
-                               
+                                <li class="output_p"></li>
                                 <li>
                                     <p>密码</p>
-                                    <input type="text" />
+                                    <input type="password" id="password" name="password"/>
                                     <s class="yes"></s>
                                 </li>
                                 
                                 <li>
                                     <div>
-                                        <input type="checkbox" />
+                                        <input type="checkbox" class="check"/>
                                     
-                                        记住我 <a href="#">忘记密码？</a>
+                                        记住我 <a href="javascript:void(0)">忘记密码？</a>
                                     
 
                                     </div>
                                     
                                 </li>
-                                <li><a href="#">立即登录</a></li>
-                                <li><p>还不是本来生活网用户？<a href="#">立即注册</a></p></li>
+                                <li><a href="javascript:void(0)" class="btnLogin">立即登录</a></li>
+                                <li><p>还不是本来生活网用户？<a href="register.html">立即注册</a></p></li>
                             </ul>
                             <ul class="other">
                                 <li>其它方式</li>

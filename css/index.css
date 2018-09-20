@@ -1,13 +1,127 @@
+#main .goto {
+  bottom: 10px;
+  right: 0;
+  width: 61px;
+  position: fixed;
+  z-index: 1000;
+}
+#main .goto .go_top {
+  background: #fff url(../images/index/icon/gotop.gif) -43px -38px no-repeat;
+  cursor: pointer;
+  height: 46px;
+  width: 50px;
+  margin-top: 10px;
+  display: none;
+  float: left;
+  overflow: hidden;
+  margin-left: 11px;
+}
+#main .goto .cart_focus {
+  background: url(//image.benlailife.com/webStatic/images/cart/cart_pop02_21375019.gif) -10px 0 no-repeat;
+  height: 70px;
+  width: 50px;
+  margin-top: 10px;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin-left: 11px;
+}
+#main .goto .service {
+  background: url(//image.benlailife.com/webStatic/images/gotop_service_d114e897.gif) 0 0 no-repeat;
+  height: 70px;
+  width: 50px;
+  margin-top: 10px;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin-left: 11px;
+}
+#main .goto .two_code {
+  background: #fff url(//image.benlailife.com/webStatic/images/gotop_399f0c23.gif) no-repeat;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  float: left;
+  overflow: hidden;
+  padding: 5px;
+  background-position: -96px -46px;
+  height: 46px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 11px;
+}
+#main a {
+  text-decoration: none;
+}
+#main .left ul li:hover a {
+  width: 50px;
+  height: 50px;
+  line-height: 20px;
+  border: 1px solid #a6ca44;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background-color: #78a000;
+  border-radius: 10px;
+  text-overflow: clip;
+  display: block;
+  overflow: hidden;
+  padding: 4px 5px 0;
+}
+#main .right ul {
+  float: left;
+}
+#main .right ul li {
+  width: 176px;
+  float: left;
+  height: 264px;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+#main .right ul li .box {
+  border: 4px solid #fff;
+  width: 176px;
+  height: 256px;
+  padding: 0 14px;
+  position: relative;
+}
+#main .right ul li .box img {
+  width: 140px;
+}
+#main .right ul li .box h4 {
+  white-space: nowrap;
+  overflow: hidden;
+}
+#main .right ul li .box p span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+#main .right ul li .btn {
+  background: url(//image.benlailife.com/webStatic/images/btn_new_b1771e22.png) -50px 0 no-repeat;
+  width: 140px;
+  height: 33px;
+  display: none;
+}
+#main .right ul li:hover .btn {
+  display: block;
+}
 #main .banner img {
   width: 100%;
-  height: 400px; }
+  height: 400px;
+}
 #main .banner .swiper-container {
   background: #ccc;
-  height: 400px; }
+  height: 400px;
+}
 #main .banner .swiper-slide {
   font-size: 60px;
   text-align: center;
-  line-height: 300px; }
+  line-height: 300px;
+}
 #main .banner .swiper-pagination-bullet {
   width: 163px;
   height: 30px;
@@ -15,167 +129,202 @@
   line-height: 30px;
   color: #fff;
   background: #666;
-  font-size: 12px; }
+  font-size: 12px;
+}
 #main .banner .swiper-pagination-bullet-active {
   color: #fff;
-  background: orangered; }
+  background: orangered;
+}
 #main .ad {
   height: 175px;
-  margin-bottom: 10px; }
-  #main .ad ul {
-    float: left; }
-    #main .ad ul li {
-      float: left;
-      width: 300px; }
-      #main .ad ul li img {
-        width: 300px;
-        height: 175px; }
+  margin-bottom: 10px;
+}
+#main .ad ul {
+  float: left;
+}
+#main .ad ul li {
+  float: left;
+  width: 300px;
+}
+#main .ad ul li img {
+  width: 300px;
+  height: 175px;
+}
 #main .box_1 {
   height: 266px;
-  position: relative; }
-  #main .box_1 .new {
-    width: 1010px;
-    height: 266px;
-    float: left; }
-    #main .box_1 .new .tab {
-      float: left;
-      text-align: center;
-      background-color: #f8f8f6;
-      border-right: 1px solid #c2d58f;
-      border-left: 1px solid #e5e5e5;
-      border-top: 1px solid #e5e5e5;
-      border-bottom: 1px solid #e5e5e5;
-      float: left;
-      width: 125px;
-      height: 266px;
-      position: relative;
-      z-index: 0; }
-      #main .box_1 .new .tab p {
-        height: 46px;
-        line-height: 46px; }
-    #main .box_1 .new .on {
-      color: #78a000;
-      background-color: #fff;
-      border-top: 1px solid #c2d58f;
-      border-bottom: 1px solid #c2d58f;
-      border-left: 4px solid #91be16;
-      width: 125px;
-      padding-right: 4px; }
-    #main .box_1 .new .good {
-      position: absolute;
-      left: 125px; }
-    #main .box_1 .new .new_good {
-      width: 885px;
-      height: 266px;
-      border: 1px solid #c2d58f;
-      float: left;
-      display: block; }
-      #main .box_1 .new .new_good ul {
-        float: left; }
-        #main .box_1 .new .new_good ul li {
-          float: left;
-          border: 4px solid #fff;
-          width: 176px;
-          height: 256px;
-          padding: 0 14px;
-          position: relative; }
-          #main .box_1 .new .new_good ul li img {
-            width: 148px;
-            height: 148px; }
-    #main .box_1 .new .hot_good {
-      width: 885px;
-      height: 266px;
-      border: 1px solid #c2d58f;
-      float: left;
-      display: none; }
-      #main .box_1 .new .hot_good ul {
-        float: left; }
-        #main .box_1 .new .hot_good ul li {
-          float: left;
-          border: 4px solid #fff;
-          width: 170px;
-          height: 256px;
-          padding: 0 14px;
-          position: relative; }
-          #main .box_1 .new .hot_good ul li img {
-            width: 148px;
-            height: 148px; }
-  #main .box_1 .note {
-    height: 266px;
-    width: 175px;
-    float: right;
-    border: 1px solid #c2d58f; }
-    #main .box_1 .note p:nth-child(1) {
-      font-size: 18px;
-      height: 45px;
-      line-height: 45px;
-      text-align: center;
-      color: #626252; }
-    #main .box_1 .note ul {
-      float: left;
-      padding: 0 10px 15px; }
-      #main .box_1 .note ul li {
-        display: block;
-        overflow: hidden;
-        text-overflow: clip;
-        width: 155px;
-        height: 28px;
-        line-height: 28px;
-        white-space: nowrap;
-        float: left; }
-    #main .box_1 .note img {
-      width: 173px;
-      height: 95px; }
+  position: relative;
+}
+#main .box_1 .new {
+  width: 1010px;
+  height: 266px;
+  float: left;
+}
+#main .box_1 .new .tab {
+  float: left;
+  text-align: center;
+  background-color: #f8f8f6;
+  border-right: 1px solid #c2d58f;
+  border-left: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  float: left;
+  width: 125px;
+  height: 266px;
+  position: relative;
+  z-index: 0;
+}
+#main .box_1 .new .tab p {
+  height: 46px;
+  line-height: 46px;
+}
+#main .box_1 .new .on {
+  color: #78a000;
+  background-color: #fff;
+  border-top: 1px solid #c2d58f;
+  border-bottom: 1px solid #c2d58f;
+  border-left: 4px solid #91be16;
+  width: 125px;
+  padding-right: 4px;
+}
+#main .box_1 .new .good {
+  position: absolute;
+  left: 125px;
+}
+#main .box_1 .new .new_good {
+  width: 885px;
+  height: 266px;
+  border: 1px solid #c2d58f;
+  float: left;
+  display: block;
+}
+#main .box_1 .new .new_good ul {
+  float: left;
+}
+#main .box_1 .new .new_good ul li {
+  float: left;
+  border: 4px solid #fff;
+  width: 176px;
+  height: 256px;
+  padding: 0 14px;
+  position: relative;
+}
+#main .box_1 .new .new_good ul li img {
+  width: 148px;
+  height: 148px;
+}
+#main .box_1 .new .hot_good {
+  width: 885px;
+  height: 266px;
+  border: 1px solid #c2d58f;
+  float: left;
+  display: none;
+}
+#main .box_1 .new .hot_good ul {
+  float: left;
+}
+#main .box_1 .new .hot_good ul li {
+  float: left;
+  border: 4px solid #fff;
+  width: 170px;
+  height: 256px;
+  padding: 0 14px;
+  position: relative;
+}
+#main .box_1 .new .hot_good ul li img {
+  width: 148px;
+  height: 148px;
+}
+#main .box_1 .note {
+  height: 266px;
+  width: 175px;
+  float: right;
+  border: 1px solid #c2d58f;
+}
+#main .box_1 .note p:nth-child(1) {
+  font-size: 18px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #626252;
+}
+#main .box_1 .note ul {
+  float: left;
+  padding: 0 10px 15px;
+}
+#main .box_1 .note ul li {
+  display: block;
+  overflow: hidden;
+  text-overflow: clip;
+  width: 155px;
+  height: 28px;
+  line-height: 28px;
+  white-space: nowrap;
+  float: left;
+}
+#main .box_1 .note img {
+  width: 173px;
+  height: 95px;
+}
 #main .origin {
   height: 470px;
   background: url(../images/index/origin/bg.jpg);
-  position: relative; }
-  #main .origin .slogo {
-    display: block;
-    width: 123px;
-    height: 45px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url(../images/index/origin/n_bg_.png) no-repeat;
-    background-position: 0 -85px;
-    padding-left: 49px;
-    line-height: 45px;
-    color: #fff;
-    font-size: 16px; }
-  #main .origin .path {
-    height: 170px;
-    background: url(../images/index/origin/path.png); }
-  #main .origin .origin_good {
-    width: 1160px;
-    height: 280px;
-    float: left;
-    position: relative;
-    z-index: 9;
-    margin-left: 20px;
-    display: inline; }
-    #main .origin .origin_good ul {
-      float: left;
-      padding: 0 20px;
-      background-color: #fff;
-      box-shadow: 3px 1px 9px rgba(0, 0, 0, 0.2); }
-      #main .origin .origin_good ul li {
-        float: left;
-        width: 186px;
-        height: 272px;
-        padding: 4px;
-        position: relative;
-        text-align: center; }
-        #main .origin .origin_good ul li img {
-          width: 140px;
-          height: 140px; }
+  position: relative;
+}
+#main .origin .slogo {
+  display: block;
+  width: 123px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/index/origin/n_bg_.png) no-repeat;
+  background-position: 0 -85px;
+  padding-left: 49px;
+  line-height: 45px;
+  color: #fff;
+  font-size: 16px;
+}
+#main .origin .path {
+  height: 170px;
+  background: url(../images/index/origin/path.png);
+}
+#main .origin .origin_good {
+  width: 1160px;
+  height: 280px;
+  float: left;
+  position: relative;
+  z-index: 9;
+  margin-left: 20px;
+  display: inline;
+}
+#main .origin .origin_good ul {
+  float: left;
+  padding: 0 20px;
+  background-color: #fff;
+  box-shadow: 3px 1px 9px rgba(0, 0, 0, 0.2);
+}
+#main .origin .origin_good ul li {
+  float: left;
+  width: 186px;
+  height: 272px;
+  padding: 4px;
+  position: relative;
+  text-align: center;
+}
+#main .origin .origin_good ul li img {
+  width: 140px;
+  height: 140px;
+}
 #main .ad2 {
   height: 120px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 #main .recommend {
-  height: 578px; }
+  height: 578px;
+}
 #main .fruits .tab_title {
-  border-bottom: 1px solid #91b678; }
+  border-bottom: 1px solid #91b678;
+}
 #main .fruits .tab_tit {
   float: left;
   width: 300px;
@@ -184,113 +333,152 @@
   margin: 6px 0 0 15px;
   padding-left: 40px;
   background: url(../images/index/fruits/fruits.png) no-repeat;
-  background-position: -86px -90px; }
-  #main .fruits .tab_tit a {
-    font-size: 18px; }
+  background-position: -86px -90px;
+}
+#main .fruits .tab_tit a {
+  font-size: 18px;
+}
 #main .fruits .tab_btn {
-  text-align: center; }
-  #main .fruits .tab_btn span {
-    display: block;
-    float: left;
-    width: 126px;
-    height: 48px;
-    line-height: 48px;
-    font-size: 16px;
-    color: #769b06; }
-  #main .fruits .tab_btn .ontab {
-    padding: 0 0 6px;
-    border-top: 5px solid #91be16;
-    border-left: 1px solid #91b678;
-    border-right: 1px solid #91b678;
-    background-color: #fff; }
+  text-align: center;
+}
+#main .fruits .tab_btn span {
+  display: block;
+  float: left;
+  width: 126px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  color: #769b06;
+}
+#main .fruits .tab_btn .ontab {
+  padding: 0 0 6px;
+  border-top: 5px solid #91be16;
+  border-left: 1px solid #91b678;
+  border-right: 1px solid #91b678;
+  background-color: #fff;
+}
 #main .fruits .pic .left {
-  float: left; }
-  #main .fruits .pic .left ul {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    border-left: 1px solid #eee;
-    float: left;
-    width: 315px;
-    height: 121px;
-    background-color: #fbfbfb;
-    overflow: hidden;
-    padding: 7px 0 0 30px; }
-    #main .fruits .pic .left ul li {
-      float: left;
-      width: 52px;
-      height: 52px;
-      margin: 0 15px 10px 0;
-      text-align: center; }
-      #main .fruits .pic .left ul li a {
-        width: 50px;
-        height: 50px;
-        line-height: 20px;
-        border: 1px solid #a6ca44;
-        display: block;
-        text-align: center;
-        font-size: 14px;
-        color: #78a000;
-        background-color: #fff;
-        border-radius: 10px;
-        text-overflow: clip;
-        display: block;
-        overflow: hidden; }
+  float: left;
+}
+#main .fruits .pic .left ul {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  float: left;
+  width: 315px;
+  height: 121px;
+  background-color: #fbfbfb;
+  overflow: hidden;
+  padding: 7px 0 0 30px;
+}
+#main .fruits .pic .left ul li {
+  float: left;
+  width: 52px;
+  height: 52px;
+  margin: 0 15px 10px 0;
+  text-align: center;
+}
+#main .fruits .pic .left ul li a {
+  width: 50px;
+  height: 50px;
+  line-height: 20px;
+  border: 1px solid #a6ca44;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  text-overflow: clip;
+  display: block;
+  overflow: hidden;
+  padding: 4px 5px 0;
+}
 #main .fruits .pic .right {
   float: right;
   width: 885px;
   height: 530px;
-  position: relative; }
-  #main .fruits .pic .right .f_good {
-    position: absolute;
-    width: 885px;
-    height: 530px;
-    display: none; }
-  #main .fruits .pic .right .hot_fruits {
-    display: block; }
-    #main .fruits .pic .right .hot_fruits ul {
-      float: left; }
-      #main .fruits .pic .right .hot_fruits ul li {
-        width: 176px;
-        float: left;
-        height: 264px;
-        border-bottom: 1px solid #eee;
-        border-right: 1px solid #eee;
-        background-color: #fff;
-        overflow: hidden;
-        position: relative; }
-        #main .fruits .pic .right .hot_fruits ul li .box {
-          border: 4px solid #fff;
-          width: 176px;
-          height: 256px;
-          padding: 0 14px;
-          position: relative; }
-          #main .fruits .pic .right .hot_fruits ul li .box img {
-            width: 140px; }
-  #main .fruits .pic .right .import {
-    background-color: yellow; }
-    #main .fruits .pic .right .import ul {
-      float: left; }
-      #main .fruits .pic .right .import ul li {
-        width: 176px;
-        float: left;
-        height: 264px;
-        border-bottom: 1px solid #eee;
-        border-right: 1px solid #eee;
-        background-color: #fff;
-        overflow: hidden;
-        position: relative; }
-        #main .fruits .pic .right .import ul li .box {
-          border: 4px solid #fff;
-          width: 176px;
-          height: 256px;
-          padding: 0 14px;
-          position: relative; }
-          #main .fruits .pic .right .import ul li .box img {
-            width: 140px; }
-  #main .fruits .pic .right .make_in_china {
-    background-color: blue; }
+  position: relative;
+}
+#main .fruits .pic .right .f_good {
+  position: absolute;
+  width: 885px;
+  height: 530px;
+  display: none;
+}
+#main .fruits .pic .right .hot_fruits {
+  display: block;
+}
+#main .fruits .pic .right .hot_fruits ul {
+  float: left;
+}
+#main .fruits .pic .right .hot_fruits ul li {
+  width: 176px;
+  float: left;
+  height: 264px;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+#main .fruits .pic .right .hot_fruits ul li .box {
+  border: 4px solid #fff;
+  width: 176px;
+  height: 256px;
+  padding: 0 14px;
+  position: relative;
+}
+#main .fruits .pic .right .hot_fruits ul li .box img {
+  width: 140px;
+}
+#main .fruits .pic .right .import ul {
+  float: left;
+}
+#main .fruits .pic .right .import ul li {
+  width: 176px;
+  float: left;
+  height: 264px;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+#main .fruits .pic .right .import ul li .box {
+  border: 4px solid #fff;
+  width: 176px;
+  height: 256px;
+  padding: 0 14px;
+  position: relative;
+}
+#main .fruits .pic .right .import ul li .box img {
+  width: 140px;
+}
+#main .fruits .pic .right .make_in_china ul {
+  float: left;
+}
+#main .fruits .pic .right .make_in_china ul li {
+  width: 176px;
+  float: left;
+  height: 264px;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+#main .fruits .pic .right .make_in_china ul li .box {
+  border: 4px solid #fff;
+  width: 176px;
+  height: 256px;
+  padding: 0 14px;
+  position: relative;
+}
+#main .fruits .pic .right .make_in_china ul li .box img {
+  width: 140px;
+}
 #main .seafood .tab_title {
-  border-bottom: 1px solid #91b678; }
+  border-bottom: 1px solid #91b678;
+}
 #main .seafood .tab_tit {
   float: left;
   width: 300px;
@@ -299,68 +487,79 @@
   margin: 6px 0 0 15px;
   padding-left: 40px;
   background: url(../images/index/fruits/fruits.png) no-repeat;
-  background-position: -86px -90px; }
-  #main .seafood .tab_tit a {
-    font-size: 18px; }
+  background-position: -86px -90px;
+}
+#main .seafood .tab_tit a {
+  font-size: 18px;
+}
 #main .seafood .tab_btn {
-  text-align: center; }
-  #main .seafood .tab_btn span {
-    display: block;
-    float: left;
-    width: 126px;
-    height: 48px;
-    line-height: 48px;
-    font-size: 16px;
-    color: #769b06; }
-  #main .seafood .tab_btn .ontab {
-    padding: 0 0 6px;
-    border-top: 5px solid #91be16;
-    border-left: 1px solid #91b678;
-    border-right: 1px solid #91b678;
-    background-color: #fff; }
+  text-align: center;
+}
+#main .seafood .tab_btn span {
+  display: block;
+  float: left;
+  width: 126px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  color: #769b06;
+}
+#main .seafood .tab_btn .ontab {
+  padding: 0 0 6px;
+  border-top: 5px solid #91be16;
+  border-left: 1px solid #91b678;
+  border-right: 1px solid #91b678;
+  background-color: #fff;
+}
 #main .seafood .pic .left {
-  float: left; }
-  #main .seafood .pic .left ul {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    border-left: 1px solid #eee;
-    float: left;
-    width: 315px;
-    height: 121px;
-    background-color: #fbfbfb;
-    overflow: hidden;
-    padding: 7px 0 0 30px; }
-    #main .seafood .pic .left ul li {
-      float: left;
-      width: 52px;
-      height: 52px;
-      margin: 0 15px 10px 0;
-      text-align: center; }
-      #main .seafood .pic .left ul li a {
-        width: 50px;
-        height: 50px;
-        line-height: 20px;
-        border: 1px solid #a6ca44;
-        display: block;
-        text-align: center;
-        font-size: 14px;
-        color: #78a000;
-        background-color: #fff;
-        border-radius: 10px;
-        text-overflow: clip;
-        display: block;
-        overflow: hidden; }
+  float: left;
+}
+#main .seafood .pic .left ul {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  float: left;
+  width: 315px;
+  height: 121px;
+  background-color: #fbfbfb;
+  overflow: hidden;
+  padding: 7px 0 0 30px;
+}
+#main .seafood .pic .left ul li {
+  float: left;
+  width: 52px;
+  height: 52px;
+  margin: 0 15px 10px 0;
+  text-align: center;
+}
+#main .seafood .pic .left ul li a {
+  width: 50px;
+  height: 50px;
+  line-height: 20px;
+  border: 1px solid #a6ca44;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  text-overflow: clip;
+  display: block;
+  overflow: hidden;
+  padding: 4px 5px 0;
+}
 #main .seafood .pic .right {
   float: right;
   width: 885px;
   height: 530px;
-  position: relative; }
-  #main .seafood .pic .right .f_good {
-    position: absolute;
-    width: 885px;
-    height: 530px; }
+  position: relative;
+}
+#main .seafood .pic .right .s_seafood {
+  position: absolute;
+  width: 885px;
+  height: 530px;
+}
 #main .home .tab_title {
-  border-bottom: 1px solid #91b678; }
+  border-bottom: 1px solid #91b678;
+}
 #main .home .tab_tit {
   float: left;
   width: 300px;
@@ -369,68 +568,79 @@
   margin: 6px 0 0 15px;
   padding-left: 40px;
   background: url(../images/index/fruits/fruits.png) no-repeat;
-  background-position: -86px -90px; }
-  #main .home .tab_tit a {
-    font-size: 18px; }
+  background-position: -86px -90px;
+}
+#main .home .tab_tit a {
+  font-size: 18px;
+}
 #main .home .tab_btn {
-  text-align: center; }
-  #main .home .tab_btn span {
-    display: block;
-    float: left;
-    width: 126px;
-    height: 48px;
-    line-height: 48px;
-    font-size: 16px;
-    color: #769b06; }
-  #main .home .tab_btn .ontab {
-    padding: 0 0 6px;
-    border-top: 5px solid #91be16;
-    border-left: 1px solid #91b678;
-    border-right: 1px solid #91b678;
-    background-color: #fff; }
+  text-align: center;
+}
+#main .home .tab_btn span {
+  display: block;
+  float: left;
+  width: 126px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  color: #769b06;
+}
+#main .home .tab_btn .ontab {
+  padding: 0 0 6px;
+  border-top: 5px solid #91be16;
+  border-left: 1px solid #91b678;
+  border-right: 1px solid #91b678;
+  background-color: #fff;
+}
 #main .home .pic .left {
-  float: left; }
-  #main .home .pic .left ul {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    border-left: 1px solid #eee;
-    float: left;
-    width: 315px;
-    height: 121px;
-    background-color: #fbfbfb;
-    overflow: hidden;
-    padding: 7px 0 0 30px; }
-    #main .home .pic .left ul li {
-      float: left;
-      width: 52px;
-      height: 52px;
-      margin: 0 15px 10px 0;
-      text-align: center; }
-      #main .home .pic .left ul li a {
-        width: 50px;
-        height: 50px;
-        line-height: 20px;
-        border: 1px solid #a6ca44;
-        display: block;
-        text-align: center;
-        font-size: 14px;
-        color: #78a000;
-        background-color: #fff;
-        border-radius: 10px;
-        text-overflow: clip;
-        display: block;
-        overflow: hidden; }
+  float: left;
+}
+#main .home .pic .left ul {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  float: left;
+  width: 315px;
+  height: 121px;
+  background-color: #fbfbfb;
+  overflow: hidden;
+  padding: 7px 0 0 30px;
+}
+#main .home .pic .left ul li {
+  float: left;
+  width: 52px;
+  height: 52px;
+  margin: 0 15px 10px 0;
+  text-align: center;
+}
+#main .home .pic .left ul li a {
+  width: 50px;
+  height: 50px;
+  line-height: 20px;
+  border: 1px solid #a6ca44;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  text-overflow: clip;
+  display: block;
+  overflow: hidden;
+  padding: 4px 5px 0;
+}
 #main .home .pic .right {
   float: right;
   width: 885px;
   height: 530px;
-  position: relative; }
-  #main .home .pic .right .f_good {
-    position: absolute;
-    width: 885px;
-    height: 530px; }
+  position: relative;
+}
+#main .home .pic .right .h_home {
+  position: absolute;
+  width: 885px;
+  height: 530px;
+}
 #main .food .tab_title {
-  border-bottom: 1px solid #91b678; }
+  border-bottom: 1px solid #91b678;
+}
 #main .food .tab_tit {
   float: left;
   width: 300px;
@@ -439,68 +649,79 @@
   margin: 6px 0 0 15px;
   padding-left: 40px;
   background: url(../images/index/fruits/fruits.png) no-repeat;
-  background-position: -86px -90px; }
-  #main .food .tab_tit a {
-    font-size: 18px; }
+  background-position: -86px -90px;
+}
+#main .food .tab_tit a {
+  font-size: 18px;
+}
 #main .food .tab_btn {
-  text-align: center; }
-  #main .food .tab_btn span {
-    display: block;
-    float: left;
-    width: 126px;
-    height: 48px;
-    line-height: 48px;
-    font-size: 16px;
-    color: #769b06; }
-  #main .food .tab_btn .ontab {
-    padding: 0 0 6px;
-    border-top: 5px solid #91be16;
-    border-left: 1px solid #91b678;
-    border-right: 1px solid #91b678;
-    background-color: #fff; }
+  text-align: center;
+}
+#main .food .tab_btn span {
+  display: block;
+  float: left;
+  width: 126px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  color: #769b06;
+}
+#main .food .tab_btn .ontab {
+  padding: 0 0 6px;
+  border-top: 5px solid #91be16;
+  border-left: 1px solid #91b678;
+  border-right: 1px solid #91b678;
+  background-color: #fff;
+}
 #main .food .pic .left {
-  float: left; }
-  #main .food .pic .left ul {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    border-left: 1px solid #eee;
-    float: left;
-    width: 315px;
-    height: 121px;
-    background-color: #fbfbfb;
-    overflow: hidden;
-    padding: 7px 0 0 30px; }
-    #main .food .pic .left ul li {
-      float: left;
-      width: 52px;
-      height: 52px;
-      margin: 0 15px 10px 0;
-      text-align: center; }
-      #main .food .pic .left ul li a {
-        width: 50px;
-        height: 50px;
-        line-height: 20px;
-        border: 1px solid #a6ca44;
-        display: block;
-        text-align: center;
-        font-size: 14px;
-        color: #78a000;
-        background-color: #fff;
-        border-radius: 10px;
-        text-overflow: clip;
-        display: block;
-        overflow: hidden; }
+  float: left;
+}
+#main .food .pic .left ul {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  float: left;
+  width: 315px;
+  height: 121px;
+  background-color: #fbfbfb;
+  overflow: hidden;
+  padding: 7px 0 0 30px;
+}
+#main .food .pic .left ul li {
+  float: left;
+  width: 52px;
+  height: 52px;
+  margin: 0 15px 10px 0;
+  text-align: center;
+}
+#main .food .pic .left ul li a {
+  width: 50px;
+  height: 50px;
+  line-height: 20px;
+  border: 1px solid #a6ca44;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  text-overflow: clip;
+  display: block;
+  overflow: hidden;
+  padding: 4px 5px 0;
+}
 #main .food .pic .right {
   float: right;
   width: 885px;
   height: 530px;
-  position: relative; }
-  #main .food .pic .right .f_good {
-    position: absolute;
-    width: 885px;
-    height: 530px; }
+  position: relative;
+}
+#main .food .pic .right .f_food {
+  position: absolute;
+  width: 885px;
+  height: 530px;
+}
 #main .milk .tab_title {
-  border-bottom: 1px solid #91b678; }
+  border-bottom: 1px solid #91b678;
+}
 #main .milk .tab_tit {
   float: left;
   width: 300px;
@@ -509,68 +730,79 @@
   margin: 6px 0 0 15px;
   padding-left: 40px;
   background: url(../images/index/fruits/fruits.png) no-repeat;
-  background-position: -86px -90px; }
-  #main .milk .tab_tit a {
-    font-size: 18px; }
+  background-position: -86px -90px;
+}
+#main .milk .tab_tit a {
+  font-size: 18px;
+}
 #main .milk .tab_btn {
-  text-align: center; }
-  #main .milk .tab_btn span {
-    display: block;
-    float: left;
-    width: 126px;
-    height: 48px;
-    line-height: 48px;
-    font-size: 16px;
-    color: #769b06; }
-  #main .milk .tab_btn .ontab {
-    padding: 0 0 6px;
-    border-top: 5px solid #91be16;
-    border-left: 1px solid #91b678;
-    border-right: 1px solid #91b678;
-    background-color: #fff; }
+  text-align: center;
+}
+#main .milk .tab_btn span {
+  display: block;
+  float: left;
+  width: 126px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  color: #769b06;
+}
+#main .milk .tab_btn .ontab {
+  padding: 0 0 6px;
+  border-top: 5px solid #91be16;
+  border-left: 1px solid #91b678;
+  border-right: 1px solid #91b678;
+  background-color: #fff;
+}
 #main .milk .pic .left {
-  float: left; }
-  #main .milk .pic .left ul {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    border-left: 1px solid #eee;
-    float: left;
-    width: 315px;
-    height: 121px;
-    background-color: #fbfbfb;
-    overflow: hidden;
-    padding: 7px 0 0 30px; }
-    #main .milk .pic .left ul li {
-      float: left;
-      width: 52px;
-      height: 52px;
-      margin: 0 15px 10px 0;
-      text-align: center; }
-      #main .milk .pic .left ul li a {
-        width: 50px;
-        height: 50px;
-        line-height: 20px;
-        border: 1px solid #a6ca44;
-        display: block;
-        text-align: center;
-        font-size: 14px;
-        color: #78a000;
-        background-color: #fff;
-        border-radius: 10px;
-        text-overflow: clip;
-        display: block;
-        overflow: hidden; }
+  float: left;
+}
+#main .milk .pic .left ul {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  float: left;
+  width: 315px;
+  height: 121px;
+  background-color: #fbfbfb;
+  overflow: hidden;
+  padding: 7px 0 0 30px;
+}
+#main .milk .pic .left ul li {
+  float: left;
+  width: 52px;
+  height: 52px;
+  margin: 0 15px 10px 0;
+  text-align: center;
+}
+#main .milk .pic .left ul li a {
+  width: 50px;
+  height: 50px;
+  line-height: 20px;
+  border: 1px solid #a6ca44;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  text-overflow: clip;
+  display: block;
+  overflow: hidden;
+  padding: 4px 5px 0;
+}
 #main .milk .pic .right {
   float: right;
   width: 885px;
   height: 530px;
-  position: relative; }
-  #main .milk .pic .right .f_good {
-    position: absolute;
-    width: 885px;
-    height: 530px; }
+  position: relative;
+}
+#main .milk .pic .right .m_milk {
+  position: absolute;
+  width: 885px;
+  height: 530px;
+}
 #main .snacks .tab_title {
-  border-bottom: 1px solid #91b678; }
+  border-bottom: 1px solid #91b678;
+}
 #main .snacks .tab_tit {
   float: left;
   width: 300px;
@@ -579,68 +811,79 @@
   margin: 6px 0 0 15px;
   padding-left: 40px;
   background: url(../images/index/fruits/fruits.png) no-repeat;
-  background-position: -86px -90px; }
-  #main .snacks .tab_tit a {
-    font-size: 18px; }
+  background-position: -86px -90px;
+}
+#main .snacks .tab_tit a {
+  font-size: 18px;
+}
 #main .snacks .tab_btn {
-  text-align: center; }
-  #main .snacks .tab_btn span {
-    display: block;
-    float: left;
-    width: 126px;
-    height: 48px;
-    line-height: 48px;
-    font-size: 16px;
-    color: #769b06; }
-  #main .snacks .tab_btn .ontab {
-    padding: 0 0 6px;
-    border-top: 5px solid #91be16;
-    border-left: 1px solid #91b678;
-    border-right: 1px solid #91b678;
-    background-color: #fff; }
+  text-align: center;
+}
+#main .snacks .tab_btn span {
+  display: block;
+  float: left;
+  width: 126px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  color: #769b06;
+}
+#main .snacks .tab_btn .ontab {
+  padding: 0 0 6px;
+  border-top: 5px solid #91be16;
+  border-left: 1px solid #91b678;
+  border-right: 1px solid #91b678;
+  background-color: #fff;
+}
 #main .snacks .pic .left {
-  float: left; }
-  #main .snacks .pic .left ul {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    border-left: 1px solid #eee;
-    float: left;
-    width: 315px;
-    height: 121px;
-    background-color: #fbfbfb;
-    overflow: hidden;
-    padding: 7px 0 0 30px; }
-    #main .snacks .pic .left ul li {
-      float: left;
-      width: 52px;
-      height: 52px;
-      margin: 0 15px 10px 0;
-      text-align: center; }
-      #main .snacks .pic .left ul li a {
-        width: 50px;
-        height: 50px;
-        line-height: 20px;
-        border: 1px solid #a6ca44;
-        display: block;
-        text-align: center;
-        font-size: 14px;
-        color: #78a000;
-        background-color: #fff;
-        border-radius: 10px;
-        text-overflow: clip;
-        display: block;
-        overflow: hidden; }
+  float: left;
+}
+#main .snacks .pic .left ul {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  float: left;
+  width: 315px;
+  height: 121px;
+  background-color: #fbfbfb;
+  overflow: hidden;
+  padding: 7px 0 0 30px;
+}
+#main .snacks .pic .left ul li {
+  float: left;
+  width: 52px;
+  height: 52px;
+  margin: 0 15px 10px 0;
+  text-align: center;
+}
+#main .snacks .pic .left ul li a {
+  width: 50px;
+  height: 50px;
+  line-height: 20px;
+  border: 1px solid #a6ca44;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  text-overflow: clip;
+  display: block;
+  overflow: hidden;
+  padding: 4px 5px 0;
+}
 #main .snacks .pic .right {
   float: right;
   width: 885px;
   height: 530px;
-  position: relative; }
-  #main .snacks .pic .right .f_good {
-    position: absolute;
-    width: 885px;
-    height: 530px; }
+  position: relative;
+}
+#main .snacks .pic .right .s_snacks {
+  position: absolute;
+  width: 885px;
+  height: 530px;
+}
 #main .drink .tab_title {
-  border-bottom: 1px solid #91b678; }
+  border-bottom: 1px solid #91b678;
+}
 #main .drink .tab_tit {
   float: left;
   width: 300px;
@@ -649,68 +892,79 @@
   margin: 6px 0 0 15px;
   padding-left: 40px;
   background: url(../images/index/fruits/fruits.png) no-repeat;
-  background-position: -86px -90px; }
-  #main .drink .tab_tit a {
-    font-size: 18px; }
+  background-position: -86px -90px;
+}
+#main .drink .tab_tit a {
+  font-size: 18px;
+}
 #main .drink .tab_btn {
-  text-align: center; }
-  #main .drink .tab_btn span {
-    display: block;
-    float: left;
-    width: 126px;
-    height: 48px;
-    line-height: 48px;
-    font-size: 16px;
-    color: #769b06; }
-  #main .drink .tab_btn .ontab {
-    padding: 0 0 6px;
-    border-top: 5px solid #91be16;
-    border-left: 1px solid #91b678;
-    border-right: 1px solid #91b678;
-    background-color: #fff; }
+  text-align: center;
+}
+#main .drink .tab_btn span {
+  display: block;
+  float: left;
+  width: 126px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  color: #769b06;
+}
+#main .drink .tab_btn .ontab {
+  padding: 0 0 6px;
+  border-top: 5px solid #91be16;
+  border-left: 1px solid #91b678;
+  border-right: 1px solid #91b678;
+  background-color: #fff;
+}
 #main .drink .pic .left {
-  float: left; }
-  #main .drink .pic .left ul {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    border-left: 1px solid #eee;
-    float: left;
-    width: 315px;
-    height: 121px;
-    background-color: #fbfbfb;
-    overflow: hidden;
-    padding: 7px 0 0 30px; }
-    #main .drink .pic .left ul li {
-      float: left;
-      width: 52px;
-      height: 52px;
-      margin: 0 15px 10px 0;
-      text-align: center; }
-      #main .drink .pic .left ul li a {
-        width: 50px;
-        height: 50px;
-        line-height: 20px;
-        border: 1px solid #a6ca44;
-        display: block;
-        text-align: center;
-        font-size: 14px;
-        color: #78a000;
-        background-color: #fff;
-        border-radius: 10px;
-        text-overflow: clip;
-        display: block;
-        overflow: hidden; }
+  float: left;
+}
+#main .drink .pic .left ul {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  float: left;
+  width: 315px;
+  height: 121px;
+  background-color: #fbfbfb;
+  overflow: hidden;
+  padding: 7px 0 0 30px;
+}
+#main .drink .pic .left ul li {
+  float: left;
+  width: 52px;
+  height: 52px;
+  margin: 0 15px 10px 0;
+  text-align: center;
+}
+#main .drink .pic .left ul li a {
+  width: 50px;
+  height: 50px;
+  line-height: 20px;
+  border: 1px solid #a6ca44;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  text-overflow: clip;
+  display: block;
+  overflow: hidden;
+  padding: 4px 5px 0;
+}
 #main .drink .pic .right {
   float: right;
   width: 885px;
   height: 530px;
-  position: relative; }
-  #main .drink .pic .right .f_good {
-    position: absolute;
-    width: 885px;
-    height: 530px; }
+  position: relative;
+}
+#main .drink .pic .right .d_drink {
+  position: absolute;
+  width: 885px;
+  height: 530px;
+}
 #main .kitchen .tab_title {
-  border-bottom: 1px solid #91b678; }
+  border-bottom: 1px solid #91b678;
+}
 #main .kitchen .tab_tit {
   float: left;
   width: 300px;
@@ -719,65 +973,75 @@
   margin: 6px 0 0 15px;
   padding-left: 40px;
   background: url(../images/index/fruits/fruits.png) no-repeat;
-  background-position: -86px -90px; }
-  #main .kitchen .tab_tit a {
-    font-size: 18px; }
+  background-position: -86px -90px;
+}
+#main .kitchen .tab_tit a {
+  font-size: 18px;
+}
 #main .kitchen .tab_btn {
-  text-align: center; }
-  #main .kitchen .tab_btn span {
-    display: block;
-    float: left;
-    width: 126px;
-    height: 48px;
-    line-height: 48px;
-    font-size: 16px;
-    color: #769b06; }
-  #main .kitchen .tab_btn .ontab {
-    padding: 0 0 6px;
-    border-top: 5px solid #91be16;
-    border-left: 1px solid #91b678;
-    border-right: 1px solid #91b678;
-    background-color: #fff; }
+  text-align: center;
+}
+#main .kitchen .tab_btn span {
+  display: block;
+  float: left;
+  width: 126px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 16px;
+  color: #769b06;
+}
+#main .kitchen .tab_btn .ontab {
+  padding: 0 0 6px;
+  border-top: 5px solid #91be16;
+  border-left: 1px solid #91b678;
+  border-right: 1px solid #91b678;
+  background-color: #fff;
+}
 #main .kitchen .pic .left {
-  float: left; }
-  #main .kitchen .pic .left ul {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    border-left: 1px solid #eee;
-    float: left;
-    width: 315px;
-    height: 121px;
-    background-color: #fbfbfb;
-    overflow: hidden;
-    padding: 7px 0 0 30px; }
-    #main .kitchen .pic .left ul li {
-      float: left;
-      width: 52px;
-      height: 52px;
-      margin: 0 15px 10px 0;
-      text-align: center; }
-      #main .kitchen .pic .left ul li a {
-        width: 50px;
-        height: 50px;
-        line-height: 20px;
-        border: 1px solid #a6ca44;
-        display: block;
-        text-align: center;
-        font-size: 14px;
-        color: #78a000;
-        background-color: #fff;
-        border-radius: 10px;
-        text-overflow: clip;
-        display: block;
-        overflow: hidden; }
+  float: left;
+}
+#main .kitchen .pic .left ul {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  float: left;
+  width: 315px;
+  height: 121px;
+  background-color: #fbfbfb;
+  overflow: hidden;
+  padding: 7px 0 0 30px;
+}
+#main .kitchen .pic .left ul li {
+  float: left;
+  width: 52px;
+  height: 52px;
+  margin: 0 15px 10px 0;
+  text-align: center;
+}
+#main .kitchen .pic .left ul li a {
+  width: 50px;
+  height: 50px;
+  line-height: 20px;
+  border: 1px solid #a6ca44;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  text-overflow: clip;
+  display: block;
+  overflow: hidden;
+  padding: 4px 5px 0;
+}
 #main .kitchen .pic .right {
   float: right;
   width: 885px;
   height: 530px;
-  position: relative; }
-  #main .kitchen .pic .right .f_good {
-    position: absolute;
-    width: 885px;
-    height: 530px; }
+  position: relative;
+}
+#main .kitchen .pic .right .k_kitchen {
+  position: absolute;
+  width: 885px;
+  height: 530px;
+}
 
 /*# sourceMappingURL=index.css.map */

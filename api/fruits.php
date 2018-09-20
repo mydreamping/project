@@ -1,22 +1,6 @@
 <?php
     
-    // 链接到数据库
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = 'project';
-
-
-    //创建连接
-    $conn = new mysqli($servername, $username, $password, $dbname);
-
-    //检查是否成功
-    if ($conn->connect_error) {
-            die("连接失败: " . $conn->connect_error);
-        } 
-
-    //查询前设置编码，防止输出乱码
-    $conn->set_charset('utf8');
+    include 'connect.php';
 
     $sql = "select * from goodslist";
 
@@ -28,5 +12,19 @@
 
     $conn->close();
 
-    echo json_encode($row,JSON_UNESCAPED_UNICODE);
+    // echo json_encode($row,JSON_UNESCAPED_UNICODE);
+
+    $page = isset($_GET['page']) ? $_GET['page'] : 1;
+    $qty = isset($_GET['qty']) ? $_GET['qty'] : 10;
+
+    // $arr = json_decode($row,true);
+
+    $res = array(
+        'total' => count($row),
+        'pageNo' => $page*1,
+        'qty' => $qty*1,
+        'data' => array_slice($row,($page-1)*$qty,$qty)
+    );
+
+    echo json_encode($res,JSON_UNESCAPED_UNICODE);
 ?>

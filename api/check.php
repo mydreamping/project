@@ -22,7 +22,7 @@
     $username = isset($_GET['username']) ? $_GET['username'] : null;
 
     //获取结果集，从数据库中获取
-    $sql = "select * from user where username='$username'";
+    $sql = "select * from users where username='$username'";
 
     
     

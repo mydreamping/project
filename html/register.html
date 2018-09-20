@@ -10,9 +10,9 @@
 
     <script src="../js/jquery-3.2.1.js" ></script>
     <script src="../js/swiper.min.js" ></script>
-
-    <!-- <script src="../js/register.js"></script> -->
-    <script src="../js/reg.js"></script>
+    <!-- <script src="../js/reg.js"></script> -->
+    <script src="../js/register.js"></script>
+    
     <script src="../js/drag.js"></script>
     <script>
 
@@ -54,14 +54,15 @@
                             
                             <p class="tit">手机注册</p>
                             <ul class="register_box">
-
+                                <li><div id="verifyUserNameMsg"></div></li>
                                 <li>
                                     <p class="output_tel"></p>
                                     <p >手机号</p>
                                     <input type="text" id="username"/>
                                     <s class="yes"></s>
-                                    <div id="verifyUserNameMsg"></div>
+                                    
                                 </li>
+
                                 <li>
                                     <p>验证</p>
                                     <div class="slide" id="drag">
@@ -79,14 +80,16 @@
                                     </div>
                                     <a href="#" class="acode">获取验证码</a>
                                 </li>
+                                <li><div id="verifyPasswordMsg"></div></li>
                                 <li>
                                     <p>密码</p>
                                     <input type="password" id="password"/>
                                     <s class="yes"></s>
                                 </li>
+                                <li><div id="verifyMsg"></div></li>
                                 <li>
                                     <p>确认密码</p>
-                                    <input type="password" />
+                                    <input type="password" id="compassword"/>
                                     <s class="yes"></s>
                                 </li>
                                 <li>
@@ -99,7 +102,7 @@
                                     </div>
                                     
                                 </li>
-                                <li id="btnReg"><a href="#">立即注册</a></li>
+                                <li id="btnReg"><input type="button" value="立即注册"/></li>
                                 <li><p>已注册？<a href="#">立即登录</a></p></li>
                             </ul>
                             <ul class="other">
@@ -126,8 +129,9 @@
             
             </div>
         </div>
-        </div>
+        <!-- </div> -->
     </main>
     <footer id="pageFooter"></footer>
+
 </body>
 </html>

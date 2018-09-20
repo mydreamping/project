@@ -75,6 +75,7 @@
                         width: 85px;
                         height: 100px;
                         position:absolute;
+                        z-index:100;
                         img{
                             width: 100%;
                         }
@@ -96,7 +97,7 @@
                         left:0;
                         width: 80px;
                         border:1px solid #ccc;
-                        
+                        z-index:100;
 
                         dd{
                             line-height: 20px;
@@ -333,6 +334,7 @@
                         height: 364px;
                         background-color: #fff;
                         border:1px solid #78a000;
+                        border-left:0 none;
                         font-size:14px;
                         padding-left:30px;
                         p{
@@ -348,6 +350,7 @@
                             
                         }
                     }
+
                 }
                 li:hover{
                     border:1px solid #8ab700;
@@ -361,6 +364,42 @@
                 }
                 li:hover a{
                     color:#78a000;
+                }
+                li:nth-child(2):hover div{
+                    top:-33px;
+                }
+                li:nth-child(3):hover div{
+                    top:-66px;
+                }
+                li:nth-child(4):hover div{
+                    top:-99px;
+                }
+                li:nth-child(5):hover div{
+                    top:-132px;
+                }
+                li:nth-child(6):hover div{
+                    top:-165px;
+                }
+                li:nth-child(7):hover div{
+                    top:-197px;
+                }
+                li:nth-child(8):hover div{
+                    top:-229px;
+                }
+                li:nth-child(8):hover div{
+                    top:-229px;
+                }
+                li:nth-child(9):hover div{
+                    top:-229px;
+                }
+                li:nth-child(10):hover div{
+                    top:-328px;
+                }
+                li:nth-child(11):hover div{
+                    top:-328px;
+                }
+                li:nth-child(12):hover div{
+                    top:-328px;
                 }
             }
         }

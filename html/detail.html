@@ -5,10 +5,11 @@
     <title>详情页</title>
     
     <link rel="stylesheet" type="text/css" href="../css/detail.css" />
-    <link rel="stylesheet" type="text/css" href="../css/swiper.css" /> 
+    <link rel="stylesheet" type="text/css" href="../css/fangdajing.css" />
     
     <script src="../js/jquery-3.2.1.js" ></script>
-    <script src="../js/swiper.min.js" ></script>
+    <script src="../js/detail.js"></script>
+    <script src = "../js/common.js"></script>
 
     <script>
 
@@ -44,17 +45,48 @@
                     <a href="#"></a>
                 </div>
                 <!-- 图片上下一张 -->
-                <div class="good_box">
-                    <div class="smpic">
+                <div class="good_box imgdet wrap">
+                    <div class="smpic imglist">
+                       <p></p>
+                       <ul class="smallpic">
+                        <li class="active">
+                            <img src="../images/index/fruits/fruits_1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="../images/index/fruits/fruits_2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="../images/index/fruits/fruits_3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="../images/index/fruits/fruits_4.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="../images/index/fruits/fruits_5.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="../images/index/fruits/fruits_6.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="../images/index/fruits/fruits_6.jpg" alt="">
+                        </li>
+                    </ul>
                         <p></p>
-                        <div class="smallpic">
-                            <a href="#" class="on">
-                                <img src="../images/index/fruits/fruits_1.jpg" alt="" />
-                            </a>
-                        </div>
-                        <p></p>
+
                     </div>
-                    <div class="bigpic"></div>
+                    <div class="imgpart">
+                        <!-- 图片展示 -->
+                        <div class="pic">
+                            <img src="../images/index/fruits/fruits_1.jpg" alt="">
+                            <!-- 镜片 -->
+                            <div class="magnify"></div>
+                        </div>
+                        <!-- 放大后的图片, 放大后的图片的尺寸要设置为展示图片的倍数（2倍）-->
+                        <div class="bigpic">
+                            <img src="../images/index/fruits/fruits_1.jpg"  alt="">
+                        </div>
+                    </div>
+
                     <div class="good_num">
                         <div><span>商品编号:</span></div>
                         <div class="share" >
@@ -89,12 +121,12 @@
                             <ul>
                                 <li>
                                 <input type="text" class="num" value="1"/>
-                                <a href="#" class="up"> </a>
-                                <a href="#" class="down"></a>
+                                <a href="javascript:void(0);" class="up"> </a>
+                                <a href="javascript:void(0);" class="down"></a>
                                 </li>
                                 <li>
                                     <div class="btn_buy">
-                                        <a href="#"></a>
+                                        <a href="javascript:void(0);"></a>
                                     </div>
                                     <div class="com_info">
                                     好评率
@@ -190,19 +222,29 @@
                             <dt>
                                 <img src="../images/detail/detailsp_tit01.gif" height="30" width="980" alt="" />
                             </dt>
-                            <dd></dd>
+                            <dd><img src="../images/detail/big/attr.png" height="283" width="921" alt="" /></dd>
                         </dl>
                         <dl>
                             <dt>
                                 <img src="../images/detail/detailsp_tit02.gif" height="30" width="980" alt="" />
                             </dt>
-                            <dd></dd>
+                            <dd>
+                                <img src="../images/detail/big/1.jpg" height="868" width="980" alt="" />
+                                <img src="../images/detail/big/2.jpg" height="869" width="980" alt="" />
+                                <img src="../images/detail/big/3.jpg" height="868" width="980" alt="" />
+                                <img src="../images/detail/big/7.jpg" height="868" width="980" alt="" />
+                                <img src="../images/detail/big/4.jpg" height="868" width="980" alt="" />
+                                <img src="../images/detail/big/5.jpg" height="868" width="980" alt="" />
+                                <img src="../images/detail/big/6.jpg" height="868" width="980" alt="" />
+                            </dd>
                         </dl>
                         <dl>
                             <dt>
                                 <img src="../images/detail/detailsp_tit06.png" height="30" width="980" alt="" />
                             </dt>
-                            <dd></dd>
+                            <dd>
+                                <img src="../images/detail/big/6.jpg" height="1426" width="980" alt="" />
+                            </dd>
                         </dl>
                         
                     </div>
@@ -221,5 +263,6 @@
         </div>
     </main>
     <footer id="pageFooter"></footer>
+    <script src="../js/fangdajing.js"></script>
 </body>
 </html>

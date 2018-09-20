@@ -36,34 +36,111 @@
   border-bottom: 1px solid #edecec;
   font-size: 12px;
   line-height: 40px;
+  text-align: center;
 }
 #car .car_box .list_all .list_tit input {
   float: left;
   margin: 13px 27px 0 35px;
 }
+#car .car_box .list_all .list_tit span {
+  display: block !important;
+  float: left;
+}
 #car .car_box .list_all .list_tit span:nth-child(2) {
-  margin-right: 50px;
+  width: 100px;
 }
 #car .car_box .list_all .list_tit span:nth-child(3) {
-  margin-right: 290px;
+  width: 314px;
 }
 #car .car_box .list_all .list_tit span:nth-child(4) {
-  margin-right: 110px;
+  width: 134px;
 }
 #car .car_box .list_all .list_tit span:nth-child(5) {
-  margin-right: 55px;
+  width: 103px;
 }
 #car .car_box .list_all .list_tit span:nth-child(6) {
-  margin-right: 110px;
+  width: 134px;
 }
 #car .car_box .list_all .list_tit span:nth-child(7) {
-  margin-right: 35px;
+  width: 83px;
 }
-#car .car_box .list_all ul li {
+#car .car_box .list_all .list_tit span:nth-child(8) {
+  width: 47px;
+}
+#car .car_box .list_all .content_all li {
   border-bottom: 1px dotted #e1e1e1;
   padding: 20px 0;
   float: left;
   width: 990px;
+  text-align: center;
+}
+#car .car_box .list_all .content_all li img {
+  width: 100px;
+  height: 100px;
+}
+#car .car_box .list_all .content_all li span {
+  display: block !important;
+  float: left;
+}
+#car .car_box .list_all .content_all li span:nth-child(1) input {
+  margin: 13px 27px 0 35px;
+}
+#car .car_box .list_all .content_all li span:nth-child(2) {
+  width: 100px;
+}
+#car .car_box .list_all .content_all li span:nth-child(3) {
+  width: 314px;
+}
+#car .car_box .list_all .content_all li span:nth-child(4) {
+  width: 134px;
+}
+#car .car_box .list_all .content_all li span:nth-child(5) {
+  width: 103px;
+  padding-left: 15px;
+}
+#car .car_box .list_all .content_all li span:nth-child(5) a {
+  display: block;
+  width: 20px;
+  float: left;
+}
+#car .car_box .list_all .content_all li span:nth-child(5) input {
+  float: left;
+  width: 30px;
+  border: 1px solid #ccc;
+}
+#car .car_box .list_all .content_all li span:nth-child(6) {
+  width: 118px;
+  height: 20px;
+}
+#car .car_box .list_all .content_all li span:nth-child(7) {
+  width: 83px;
+  height: 20px;
+}
+#car .car_box .list_all .content_all li span:nth-child(8) {
+  width: 47px;
+}
+#car .car_box .list_all .check {
+  margin: 10px 0;
+}
+#car .car_box .list_all .check input {
+  margin-left: 35px;
+}
+#car .car_box .list_all .check span {
+  margin-right: 20px;
+}
+#car .car_box .list_all .total {
+  float: right;
+}
+#car .car_box .list_all .total .all_price {
+  margin: 10px 0;
+}
+#car .car_box .list_all .total .btn_total input {
+  background: url(//image.benlailife.com/webStatic/images/btn/butn19_47714c66.png) no-repeat;
+  border: 0;
+  cursor: pointer;
+  width: 140px;
+  height: 38px;
+  background-position: 0 0;
 }
 
 /*# sourceMappingURL=car.css.map */

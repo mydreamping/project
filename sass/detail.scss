@@ -34,6 +34,7 @@
             .smpic{
                 width: 84px;
                 float: left;
+                position:relative;
                 p:first-child{
                     width: 82px;
                     height: 15px;
@@ -47,8 +48,9 @@
                     width: 84px;
                     float: left;
                     margin-top: 8px;
-                    height: 460px;
+                    height: 500px;
                     overflow: hidden;
+                    
                     a{
                         border: 1px solid #c9c9c9;
                         display: block;
@@ -67,10 +69,12 @@
                     text-align: center;
                     border: 1px solid #c9c9c9;
                     background: url(//image.benlailife.com/webStatic/images/n_detail/detail_ico2_aee48cd9.png) 33px -21px no-repeat;
-
+                    // position:absolute;
+                    // left:0;
+                    // bottom:-10px;
                 }
             }  
-            .bigpic{
+            .bigpicture{
                 float: right;
                 width: 500px;
                 height: 500px;
@@ -87,6 +91,7 @@
                 cursor: pointer;
             }
             .good_num{
+
                 div:first-child{
                     float: left;
                     width: 270px;
@@ -144,6 +149,15 @@
                 height: 68px;
                 min-height: 68px;
                 border-bottom: 1px solid #e0e0e0;
+                .product_name{
+                    font: 800 18px/34px "Microsoft YaHei";
+                    color: #4c4c4c;
+                }
+                .context{
+                    font-size: 14px;
+                    color: #ff6900;
+                    line-height: 26px;
+                }
                 
             }
             .intro_sales{
@@ -418,7 +432,7 @@
                     border:0 none;
                 }
                 dd{
-                    height: 480px;
+                    // height: 480px;
                     
                 }
             }

@@ -18,9 +18,9 @@ $(function(){
 
     
     // 时令水果选项卡
-    $('.tab_btn span').mouseover(function(){
+    $('.fruits .tab_btn span').mouseover(function(){
 
-        $('.tab_btn span').removeClass('ontab');
+        $('.fruits .tab_btn span').removeClass('ontab');
         $(this).addClass('ontab');
 
         var idx=$(this).index();
@@ -31,11 +31,115 @@ $(function(){
 
     });
 
+
+    // 水产海鲜
+     $('.seafood .tab_btn span').mouseover(function(){
+
+        $('.seafood .tab_btn span').removeClass('ontab');
+        $(this).addClass('ontab');
+
+        var idx=$(this).index();
+        // console.log(idx);
+        // console.log($('.good').eq(idx));
+        $('.s_seafood ').css('display','none');
+        $('.s_seafood ').eq(idx).css('display','block');
+
+    });
+
+
+     // 居家优选
+     $('.home .tab_btn span').mouseover(function(){
+
+        $('.home .tab_btn span').removeClass('ontab');
+        $(this).addClass('ontab');
+
+        var idx=$(this).index();
+        // console.log(idx);
+        // console.log($('.good').eq(idx));
+        $('.h_home').css('display','none');
+        $('.h_home').eq(idx).css('display','block');
+
+    });
+
+     //熟食面点
+
+     $('.food .tab_btn span').mouseover(function(){
+
+        $('.food .tab_btn span').removeClass('ontab');
+        $(this).addClass('ontab');
+
+        var idx=$(this).index();
+        // console.log(idx);
+        // console.log($('.good').eq(idx));
+        $('.f_food').css('display','none');
+        $('.f_food').eq(idx).css('display','block');
+
+    });
+
+
+     //乳络饮品
+
+     $('.milk .tab_btn span').mouseover(function(){
+
+        $('.milk .tab_btn span').removeClass('ontab');
+        $(this).addClass('ontab');
+
+        var idx=$(this).index();
+        // console.log(idx);
+        // console.log($('.good').eq(idx));
+        $('.m_milk').css('display','none');
+        $('.m_milk').eq(idx).css('display','block');
+
+    });
+
+     //休闲零食
+     
+     $('.snacks .tab_btn span').mouseover(function(){
+
+        $('.snacks .tab_btn span').removeClass('ontab');
+        $(this).addClass('ontab');
+
+        var idx=$(this).index();
+        // console.log(idx);
+        // console.log($('.good').eq(idx));
+        $('.s_snacks').css('display','none');
+        $('.s_snacks').eq(idx).css('display','block');
+
+    });
+
+     //酒水茶饮
+      $('.drink .tab_btn span').mouseover(function(){
+
+        $('.drink .tab_btn span').removeClass('ontab');
+        $(this).addClass('ontab');
+
+        var idx=$(this).index();
+        // console.log(idx);
+        // console.log($('.good').eq(idx));
+        $('.d_drink').css('display','none');
+        $('.d_drink').eq(idx).css('display','block');
+
+    });
+
+    //厨房用品
+    $('.kitchen .tab_btn span').mouseover(function(){
+
+        $('.kitchen .tab_btn span').removeClass('ontab');
+        $(this).addClass('ontab');
+
+        var idx=$(this).index();
+        // console.log(idx);
+        // console.log($('.good').eq(idx));
+        $('.k_kitchen').css('display','none');
+        $('.k_kitchen').eq(idx).css('display','block');
+
+    });
+    
     // 轮播图
     banner();
     
     function banner(){
-
+        // var arr = ['秘鲁牛油果89元10个','佳沛金果189元原箱','泰国椰青98元9粒','佳沛绿果99元原箱','拿得出手的中秋好礼'];
         var s1 = new Swiper('.swiper-container', {
                 autoplay: { //自动轮播+延时两秒
                     delay:2000,
@@ -49,9 +153,9 @@ $(function(){
                 },
                 pagination: {//焦点跟随
                     el: '.swiper-pagination',
-                    clickable: true,//点击焦点跳到指定图片
+                    clickable: true,//点击焦点跳到指定图片+
                     renderBullet: function(index, className) {
-                        return '<span class="' + className + '">' + (index + 1) + '</span>';//生成焦点数字
+                        return '<span class="' + className + '">' +(index + 1)+ '</span>';//生成焦点数字
                     }
                 },
                 mousewheel:true//滚动滑轮可以切图

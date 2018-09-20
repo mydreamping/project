@@ -27,7 +27,7 @@
 
     if($username && $password){
         // 用户有效性验证
-        $sql = "select * from user where username='$username'";
+        $sql = "select * from users where username='$username'";
         
         $result = $conn->query($sql);
         // var_dump($sql);
@@ -38,7 +38,7 @@
             $password = md5($password);
             
             // 写入数据库
-            $sql = "insert into user(username,password) values('$username','$password')";
+            $sql = "insert into users(username,password) values('$username','$password')";
 
             $result = $conn->query($sql);
 

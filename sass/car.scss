@@ -40,36 +40,139 @@
                 border-bottom: 1px solid #edecec;
                 font-size:12px;
                 line-height: 40px;
+                text-align:center;
                 input{
                     float: left;
                     margin: 13px 27px 0 35px;
                 }
+                span{
+                    display:block!important;
+                    float: left;
+                }
                 span:nth-child(2){
-                    margin-right: 50px;
+                    width: 100px;
+                    // margin-right: 50px;
                 }
                 span:nth-child(3){
-                    margin-right: 290px;
+                    width: 314px;
+                    // margin-right: 290px;
                 }
                 span:nth-child(4){
-                    margin-right: 110px;
+                    width: 134px;
+                    // margin-right: 110px;
                 }
                 span:nth-child(5){
-                    margin-right: 55px;
+                    width: 103px;
+                    // margin-right: 55px;
                 }
                 span:nth-child(6){
-                    margin-right: 110px;
+                    width: 134px;
+                    // margin-right: 110px;
                 }
                 span:nth-child(7){
-                    margin-right: 35px;
+                    width: 83px;
+                    // margin-right: 35px;
+                }
+                span:nth-child(8){
+                    width: 47px;
+                    // margin-right: 35px;
                 }
             }
-            ul{
+            .content_all{ 
+
                 li{
                     border-bottom: 1px dotted #e1e1e1;
                     padding: 20px 0;
                     float: left;
                     width: 990px;
+                    text-align:center;
+                    img{
+                        width: 100px;
+                        height: 100px;   
+                    }
+                    span{
+                        display:block!important;
+                        float: left;
+                    }
+                    span:nth-child(1){
+                        input{
+                            margin: 13px 27px 0 35px;
+                        }
+                    }
+                    span:nth-child(2){
+                        width: 100px;
+                    // margin-right: 50px;
+                    }
+                    span:nth-child(3){
+                        width: 314px;
+                        // margin-right: 290px;
+                    }
+                    span:nth-child(4){
+                        width: 134px;
+                        // margin-right: 110px;
+                    }
+                    span:nth-child(5){
+                        width: 103px;
+                        padding-left:15px;
+                        a{
+                            display:block;
+                            width: 20px;
+                            float: left;
+                        }
+                        input{
+                            float: left;
+                            width: 30px;
+                            // height: 30px;
+                            // margin: 0 27px 0 35px;
+                            border:1px solid #ccc;
+                        }
+                        // margin-right: 55px;
+                    }
+                    span:nth-child(6){
+                        width: 118px;
+                        height: 20px;
+                        // margin-right: 110px;
+                    }
+                    span:nth-child(7){
+                        width: 83px;
+                        height: 20px;
+                        // margin-right: 35px;
+                    }
+                    span:nth-child(8){
+                        width: 47px;
+                        // margin-right: 35px;
+                    }
                 }
+            }
+            .check{
+                margin:10px 0;
+                input{
+                    margin-left:35px;
+                }
+                span{
+                    margin-right:20px;
+                }
+            }
+            .total{
+                float: right;
+                
+
+                .all_price{
+                    margin:10px 0;
+                }
+                .btn_total{
+                
+                    input{
+                        background: url(//image.benlailife.com/webStatic/images/btn/butn19_47714c66.png) no-repeat;
+                        border: 0;
+                        cursor: pointer;
+                        width: 140px;
+                        height: 38px;
+                        background-position: 0 0;
+                    }
+                }
+
+
             }
         }
     }

@@ -31,6 +31,7 @@
 #detail .list_box .good_box .smpic {
   width: 84px;
   float: left;
+  position: relative;
 }
 #detail .list_box .good_box .smpic p:first-child {
   width: 82px;
@@ -44,7 +45,7 @@
   width: 84px;
   float: left;
   margin-top: 8px;
-  height: 460px;
+  height: 500px;
   overflow: hidden;
 }
 #detail .list_box .good_box .smpic .smallpic a {
@@ -64,7 +65,7 @@
   border: 1px solid #c9c9c9;
   background: url(//image.benlailife.com/webStatic/images/n_detail/detail_ico2_aee48cd9.png) 33px -21px no-repeat;
 }
-#detail .list_box .good_box .bigpic {
+#detail .list_box .good_box .bigpicture {
   float: right;
   width: 500px;
   height: 500px;
@@ -132,6 +133,15 @@
   height: 68px;
   min-height: 68px;
   border-bottom: 1px solid #e0e0e0;
+}
+#detail .list_box .goodinfo .name .product_name {
+  font: 800 18px/34px "Microsoft YaHei";
+  color: #4c4c4c;
+}
+#detail .list_box .goodinfo .name .context {
+  font-size: 14px;
+  color: #ff6900;
+  line-height: 26px;
 }
 #detail .list_box .goodinfo .intro_sales {
   float: left;
@@ -370,9 +380,6 @@
 }
 #detail .comment_box .box_right .goods_all dt {
   border: 0 none;
-}
-#detail .comment_box .box_right .goods_all dd {
-  height: 480px;
 }
 #detail .comment_box .box_right .review {
   float: left;
