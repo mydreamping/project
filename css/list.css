@@ -107,7 +107,6 @@
   float: left;
   height: 395px;
   position: relative;
-  z-index: 0;
 }
 #list .right .content ul li img {
   width: 201px;
@@ -125,17 +124,14 @@
   color: #ff6900;
   margin-top: 5px;
 }
-#list .right .content ul li .add2cart p {
-  position: absolute;
-  bottom: 0px;
-  left: 0;
+#list .right .content ul li .add2cart {
   display: none;
 }
 #list .right .content ul li .add2cart img {
   width: 233px;
   height: 32px;
 }
-#list .right .content ul li:hover .add2cart p {
+#list .right .content ul li:hover .add2cart {
   display: block;
 }
 #list .right .page {

@@ -353,11 +353,29 @@
                     float: left;
                     width: 120px;
                     height: 230px;
+                    li{
+                        // text-align:center;
+                        img{
+                            width: 114px;
+                            height: 114px;
+                        }
+                        p:last-child{
+                            text-align:center;
+                        }
+                    }
                 }
                 .match_list{
                     float: left;
                     width: 510px;
                     height: 230px;
+                    li{
+                        width: 114px;
+                        float: left;
+                        img{
+                            width: 114px;
+                            height: 114px;
+                        }
+                    }
                 }
             }
             ol{
@@ -380,6 +398,7 @@
                 float: left;
                 width: 980px;
                 position: relative;
+               
                 z-index: 7;
                 background-color: #fafafa;
                 border-bottom: 1px solid #efefe7;
@@ -422,6 +441,7 @@
                     height: 39px;
                 }
                 
+                    
             }
 
             .goods_all{

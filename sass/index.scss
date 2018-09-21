@@ -12,7 +12,7 @@
             height: 46px;
             width: 50px;
             margin-top: 10px;
-            display: none;
+            // display: none;
             float: left;
             overflow: hidden;
             margin-left: 11px;
@@ -109,16 +109,19 @@
                     background: url(//image.benlailife.com/webStatic/images/btn_new_b1771e22.png) -50px 0 no-repeat;
                         width: 140px;
                         height: 33px;
-                        display: none;
-                        // position:absolute;
-                        // top:256px;
-                        // left:0;
+                        // display: none;
+                        position:absolute;
+                        bottom:-50px;
+                        left:0;
                 }
                 
             }
             
             li:hover .btn{
-                display:block;
+                // display:block;
+                bottom:0;
+                // display: block;
+                transition:all 2s;
             }
         }
 

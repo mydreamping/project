@@ -112,7 +112,8 @@
                     float: left;
                     height: 395px;
                     position: relative;
-                    z-index: 0;
+                    // z-index: 0;
+                    // background-color: #fff;
                     img{
                         width: 201px;
                         height: 201px;
@@ -130,12 +131,12 @@
                         margin-top: 5px;
                     }
                     .add2cart{
-                        p{
-                            position:absolute;
-                            bottom:0px;
-                            left:0;
-                            display:none;
-                        }
+                        // position:absolute;
+                        // bottom:-40px;
+                        // left:0;
+                        // transition: all 2s;
+                        // background-color: #fff;
+                        display:none;
                         img{
                             width: 233px;
                             height: 32px;
@@ -144,8 +145,10 @@
 
                 }
                 
-                li:hover .add2cart p{
+                li:hover .add2cart{
                     display:block;
+                    // bottom:0;
+
                 }
             }
 

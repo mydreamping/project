@@ -310,10 +310,25 @@
   width: 120px;
   height: 230px;
 }
+#detail .comment_box .box_right .match ul:first-child li img {
+  width: 114px;
+  height: 114px;
+}
+#detail .comment_box .box_right .match ul:first-child li p:last-child {
+  text-align: center;
+}
 #detail .comment_box .box_right .match .match_list {
   float: left;
   width: 510px;
   height: 230px;
+}
+#detail .comment_box .box_right .match .match_list li {
+  width: 114px;
+  float: left;
+}
+#detail .comment_box .box_right .match .match_list li img {
+  width: 114px;
+  height: 114px;
 }
 #detail .comment_box .box_right ol {
   float: right;

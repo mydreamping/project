@@ -111,5 +111,30 @@ $(function(){
      });
 
 
+     
+     //全部删除 未完成,之后再改
+     $('.check .del').on('click',function(){
+
+       var ul = $(this).parent().parent().children().eq(1);
+       var len = ul.children().length;
+       console.log(len);  
+
+       var arr = [];
+       for(let i=0;i<len;i++){
+
+            var currentli = ul.children().eq(i);
+            var guid = currentli.attr('data-id');
+            arr.push(guid);
+           
+                xhr_del.open('get','../api/del_car.php?id='+guid,true);
+
+                xhr_del.send();
+                
+           
+       }
+           ul.children().remove();
+        // console.log(arr);
+
+     });
 
 })

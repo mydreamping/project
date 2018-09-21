@@ -11,7 +11,7 @@
 
 
     // 加密密码在进行查询操作
-    // $password = md5($password);
+    $password = md5($password);
 
     $sql = "select * from users where username='$username' and password='$password'";
 

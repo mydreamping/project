@@ -48,7 +48,7 @@ $(function(){
 
 
      // 居家优选
-     $('.home .tab_btn span').mouseover(function(){
+    $('.home .tab_btn span').mouseover(function(){
 
         $('.home .tab_btn span').removeClass('ontab');
         $(this).addClass('ontab');
@@ -63,7 +63,7 @@ $(function(){
 
      //熟食面点
 
-     $('.food .tab_btn span').mouseover(function(){
+    $('.food .tab_btn span').mouseover(function(){
 
         $('.food .tab_btn span').removeClass('ontab');
         $(this).addClass('ontab');
@@ -79,7 +79,7 @@ $(function(){
 
      //乳络饮品
 
-     $('.milk .tab_btn span').mouseover(function(){
+    $('.milk .tab_btn span').mouseover(function(){
 
         $('.milk .tab_btn span').removeClass('ontab');
         $(this).addClass('ontab');
@@ -94,7 +94,7 @@ $(function(){
 
      //休闲零食
      
-     $('.snacks .tab_btn span').mouseover(function(){
+    $('.snacks .tab_btn span').mouseover(function(){
 
         $('.snacks .tab_btn span').removeClass('ontab');
         $(this).addClass('ontab');
@@ -108,7 +108,7 @@ $(function(){
     });
 
      //酒水茶饮
-      $('.drink .tab_btn span').mouseover(function(){
+    $('.drink .tab_btn span').mouseover(function(){
 
         $('.drink .tab_btn span').removeClass('ontab');
         $(this).addClass('ontab');
@@ -172,5 +172,64 @@ $(function(){
                 s1.autoplay.start();
             }
     }
+    
+    
    
+
+    document.body.onclick = function(e){
+          
+            var goodslist = Cookie.get('goodslist');
+
+            if(goodslist === ''){
+                goodslist = [];
+            }else{
+                goodslist = JSON.parse(goodslist);
+            }
+
+            // console.log(goodslist);
+
+
+
+            goodslist = [] ;
+            var target = e.target;
+            var tagName = target.tagName.toLowerCase();
+
+               
+                if(target.parentNode.className == 'box'){
+                 
+                    var currentLi = target.parentNode.parentNode;
+                    
+                    var guid = currentLi.getAttribute('data-id');
+
+                    console.log(guid);//唯一表示为空
+
+                    // 获取商品信息，并写入对象
+                    var mygoods = {
+                        guid:guid,
+                        imgurl:currentLi.children[0].children[0].src,
+                        title:currentLi.children[0].children[1].innerText,
+                        ind:currentLi.children[0].children[2].innerText,
+                        price:currentLi.children[0].children[3].children[0].innerText,
+                        // hot:currentLi.children[4].innerText,
+
+                }
+                    console.log(mygoods);
+                    // 把当前商品写入数组
+                    goodslist.unshift(mygoods);
+                
+
+               
+
+                location.href = '../html/detail.html';    
+                //cookie
+                Cookie.set('goodslist',JSON.stringify(goodslist));
+                    // document.cookie = 'goodslist=' + JSON.stringify(goodslist);
+                    
+
+            }
+            
+    }
+
+    
+
 })

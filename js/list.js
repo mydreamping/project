@@ -29,8 +29,11 @@ document.addEventListener("DOMContentLoaded",()=>{
                         page.appendChild(span);
                 }
 
-
-
+                // 获得小图
+                // var s_picurl = data.data.map(item=>{
+                //     return item.s_pic;
+                // })
+                // console.log(s_picurl);
 
                 //生成ul
                 let ul = document.createElement('ul');
@@ -38,10 +41,12 @@ document.addEventListener("DOMContentLoaded",()=>{
                 ul.innerHTML = data.data.map(item=>{
 
                     return `<li  class="myli" data-id="${item.id}">
+                            <div>
                             <img src="../${item.imgurl}"/>
                             <h4>${item.title}</h4>
                             <span>${item.ind}</span>
                             <p class="price"><s>${item.price}</s></p>
+                            </div>
                             <div class="add2cart">
                                 <p><img src="../images/list/list_btn01.gif"></p>
                             </div>

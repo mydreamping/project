@@ -52,7 +52,7 @@ $(function(){
         var imgurl;
         var ind;
         var guid;
-
+        
         goodslist.map(function(item){
 
             guid= item.guid;
@@ -60,6 +60,7 @@ $(function(){
             ind = item.ind;
             price = item.price;
             imgurl = item.imgurl;
+
         });
 
         // console.log(guid);
@@ -92,6 +93,24 @@ $(function(){
         xhr_car.send();
     })
 
+    //经常一起购买
+        var img = imgurl.slice(22,);
+        $('.match').children().eq(0).html(`<li><img src="../${img}"></span><span>${title}</span><p>${price}</p></li>`) ;
+
+    //吸顶菜单
+    var barTop = $('.good_detail_tab').offset().top;
+    console.log(barTop);
+        //on方法相当于原生的绑定
+        $(window).on('scroll',function () {
+            var scrollTop = $(document).scrollTop();
+            if (scrollTop >= barTop) {
+            //固定在上方
+                $('.good_detail_tab').css({position: 'fixed',top: 0});
+            } else {
+                $('.good_detail_tab').css('position','static');
+                
+            }
+    });
 
 
 });

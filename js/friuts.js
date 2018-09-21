@@ -34,7 +34,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
 
                                 <div class="btn"></div>
                                 </div>
@@ -52,7 +52,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -68,7 +68,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -160,7 +160,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -175,7 +175,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -263,7 +263,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -278,7 +278,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -366,7 +366,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -381,7 +381,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -467,7 +467,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -482,7 +482,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -568,7 +568,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -583,7 +583,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -669,7 +669,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -684,7 +684,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -764,7 +764,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -779,7 +779,7 @@ $(function(){
                                 <img src="../${goods.imgurl}"/>
                                 <h4>${goods.title}</h4>
                                 <p class="category"><span>${goods.ind}</span></p>
-                                <p class="price"><span>${goods.price}</span>&nbsp;<span>${goods.off}</span></p>
+                                <p class="price"><span>${goods.price}</span>&nbsp;<del>${goods.off}</del></p>
                                 <div class="btn"></div>
                                 </div>
                             </li>`
@@ -829,16 +829,22 @@ $(function(){
     }
 
     friuts()
-    var recommend  = document.getElementsByClassName('recommend');
-    console.log(recommend);
-    for(var a=0;a<recommend.length;a++){
-        recommend[a].onmouseover = function(ev){ 
-            // console.log(this);
-            
-        }
-        
-    }
+    // document.body.onmouseover = function(e){
+
+    //     console.log(e.target);
+
+
+    // }
+
 // });
 
 // 回到顶部
+    $('#go_top').click(function(){
+        
+        $('html,body').animate({scrollTop:0},2000)
+    });
+
+    
+     
+
 })
